@@ -2,62 +2,33 @@
 
 **A unified lakehouse of my IT & finance projects — from data pipelines to insights.**
 
-<!-- ===== BADGE ZONE (inspired by Seob'log guide) ===== -->
+<!-- ===== CLEAN BADGE ZONE (minimal, professional) ===== -->
 
-<div align="center">
+<div align="left">
 
-  <!-- Core stack: brand colors, for-the-badge -->
-
-  <p>
-    <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a>
-    <a href="https://kotlinlang.org/"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/></a>
-    <a href="https://www.java.com/"><img alt="Java" src="https://img.shields.io/badge/Java-8%2B-007396?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></a>
-  </p>
+  <!-- Core stack (only 7): monochrome-slate palette -->
 
   <p>
-    <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-microframework-000000?style=for-the-badge&logo=flask&logoColor=white"/></a>
-    <a href="https://www.selenium.dev/"><img alt="Selenium" src="https://img.shields.io/badge/Selenium-Web_Automation-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/></a>
-    <a href="https://firebase.google.com/"><img alt="Firebase" src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=000"/></a>
-    <a href="https://developer.android.com/"><img alt="Android" src="https://img.shields.io/badge/Android-App-3DDC84?style=for-the-badge&logo=android&logoColor=000"/></a>
-    <a href="https://nodejs.org/"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-runtime-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/></a>
-    <a href="https://github.com/features/actions"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/></a>
-    <a href="https://www.figma.com/"><img alt="Figma" src="https://img.shields.io/badge/Figma-Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
+    <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.x-334155?style=flat-square&logo=python&logoColor=ffffff&labelColor=0F172A"/></a>
+    <a href="https://www.mysql.com/"><img alt="SQL" src="https://img.shields.io/badge/SQL-Queries-334155?style=flat-square&logo=postgresql&logoColor=ffffff&labelColor=0F172A"/></a>
+    <a href="https://www.java.com/"><img alt="JVM" src="https://img.shields.io/badge/JVM-Java%2FKotlin-334155?style=flat-square&logo=openjdk&logoColor=ffffff&labelColor=0F172A"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-334155?style=flat-square&logo=javascript&logoColor=ffffff&labelColor=0F172A"/></a>
+    <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-API-334155?style=flat-square&logo=flask&logoColor=ffffff&labelColor=0F172A"/></a>
+    <a href="https://firebase.google.com/"><img alt="Firebase" src="https://img.shields.io/badge/Firebase-Backend-334155?style=flat-square&logo=firebase&logoColor=ffffff&labelColor=0F172A"/></a>
+    <a href="https://developer.android.com/"><img alt="Android" src="https://img.shields.io/badge/Android-App-334155?style=flat-square&logo=android&logoColor=ffffff&labelColor=0F172A"/></a>
   </p>
 
-  <!-- Certifications (progress) -->
-
-  <p>
-    <img alt="MOS PowerPoint 2016" src="https://img.shields.io/badge/MOS_PowerPoint_2016-Passed-10B981?style=flat-square&logo=microsoftpowerpoint&logoColor=white"/>
-    <img alt="ADsP" src="https://img.shields.io/badge/ADsP-In_Progress-F59E0B?style=flat-square"/>
-    <img alt="SQLD" src="https://img.shields.io/badge/SQLD-In_Progress-F59E0B?style=flat-square"/>
-    <img alt="Big_Data_Analyst" src="https://img.shields.io/badge/빅데이터_분석기사-In_Progress-F59E0B?style=flat-square"/>
-    <img alt="정보처리기사" src="https://img.shields.io/badge/정보처리기사-In_Progress-F59E0B?style=flat-square"/>
-    <img alt="TOEIC_Speaking" src="https://img.shields.io/badge/TOEIC_Speaking-In_Progress-F59E0B?style=flat-square"/>
-    <img alt="컴활_1급" src="https://img.shields.io/badge/컴활_1급-In_Progress-F59E0B?style=flat-square"/>
-    <img alt="DAoP" src="https://img.shields.io/badge/DAoP-In_Progress-F59E0B?style=flat-square"/>
-  </p>
-
-  <!-- Optional: icon strip using devicon (super clean) -->
+  <!-- Optional details (secondary tools) collapsed by default -->
 
   <details>
-    <summary>Minimal icon strip</summary>
+    <summary>More tools</summary>
     <p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="26"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="26"/>
+      <img alt="Selenium" src="https://img.shields.io/badge/Selenium-Automation-475569?style=flat-square&logo=selenium&logoColor=ffffff&labelColor=0F172A"/>
+      <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Runtime-475569?style=flat-square&logo=nodedotjs&logoColor=ffffff&labelColor=0F172A"/>
+      <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-475569?style=flat-square&logo=githubactions&logoColor=ffffff&labelColor=0F172A"/>
+      <img alt="HTML5" src="https://img.shields.io/badge/HTML5-Markup-475569?style=flat-square&logo=html5&logoColor=ffffff&labelColor=0F172A"/>
+      <img alt="CSS3" src="https://img.shields.io/badge/CSS3-Styles-475569?style=flat-square&logo=css3&logoColor=ffffff&labelColor=0F172A"/>
+      <img alt="Figma" src="https://img.shields.io/badge/Figma-Design-475569?style=flat-square&logo=figma&logoColor=ffffff&labelColor=0F172A"/>
     </p>
   </details>
 </div>
