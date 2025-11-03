@@ -2,35 +2,16 @@
 
 **A unified lakehouse of my IT & finance projects — from data pipelines to insights.**
 
-<!-- ===== CLEAN BADGE ZONE (minimal, professional) ===== -->
+<!-- ===== GROUPED BADGE ZONE (clean, readable, not too dark) ===== -->
 
 <div align="left">
 
-  <!-- Core stack (only 7): monochrome-slate palette -->
+<sub><b>Languages</b></sub><br> <img alt="Python" src="https://img.shields.io/badge/Python-3.x-E5E7EB?style=flat-square&logo=python&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="SQL" src="https://img.shields.io/badge/SQL-Queries-E5E7EB?style=flat-square&logo=postgresql&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Java" src="https://img.shields.io/badge/Java-8%2B-E5E7EB?style=flat-square&logo=openjdk&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-E5E7EB?style=flat-square&logo=kotlin&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-E5E7EB?style=flat-square&logo=javascript&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-Markup-E5E7EB?style=flat-square&logo=html5&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-Styles-E5E7EB?style=flat-square&logo=css3&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="JSON" src="https://img.shields.io/badge/JSON-Data-E5E7EB?style=flat-square&logo=json&logoColor=0F172A&labelColor=CBD5E1"/>
 
-  <p>
-    <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.x-334155?style=flat-square&logo=python&logoColor=ffffff&labelColor=0F172A"/></a>
-    <a href="https://www.mysql.com/"><img alt="SQL" src="https://img.shields.io/badge/SQL-Queries-334155?style=flat-square&logo=postgresql&logoColor=ffffff&labelColor=0F172A"/></a>
-    <a href="https://www.java.com/"><img alt="JVM" src="https://img.shields.io/badge/JVM-Java%2FKotlin-334155?style=flat-square&logo=openjdk&logoColor=ffffff&labelColor=0F172A"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-334155?style=flat-square&logo=javascript&logoColor=ffffff&labelColor=0F172A"/></a>
-    <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-API-334155?style=flat-square&logo=flask&logoColor=ffffff&labelColor=0F172A"/></a>
-    <a href="https://firebase.google.com/"><img alt="Firebase" src="https://img.shields.io/badge/Firebase-Backend-334155?style=flat-square&logo=firebase&logoColor=ffffff&labelColor=0F172A"/></a>
-    <a href="https://developer.android.com/"><img alt="Android" src="https://img.shields.io/badge/Android-App-334155?style=flat-square&logo=android&logoColor=ffffff&labelColor=0F172A"/></a>
-  </p>
+<br/><br/> <sub><b>Frameworks</b></sub><br> <img alt="Flask" src="https://img.shields.io/badge/Flask-API-E5E7EB?style=flat-square&logo=flask&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="pandas" src="https://img.shields.io/badge/pandas-Analysis-E5E7EB?style=flat-square&logo=pandas&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-Numeric-E5E7EB?style=flat-square&logo=numpy&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-ML-E5E7EB?style=flat-square&logo=scikitlearn&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Selenium" src="https://img.shields.io/badge/Selenium-Automation-E5E7EB?style=flat-square&logo=selenium&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Runtime-E5E7EB?style=flat-square&logo=nodedotjs&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Android" src="https://img.shields.io/badge/Android-App-E5E7EB?style=flat-square&logo=android&logoColor=0F172A&labelColor=CBD5E1"/>
 
-  <!-- Optional details (secondary tools) collapsed by default -->
+<br/><br/> <sub><b>Cloud & Tools</b></sub><br> <img alt="Firebase" src="https://img.shields.io/badge/Firebase-Backend-E5E7EB?style=flat-square&logo=firebase&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-E5E7EB?style=flat-square&logo=githubactions&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Figma" src="https://img.shields.io/badge/Figma-Design-E5E7EB?style=flat-square&logo=figma&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-Editor-E5E7EB?style=flat-square&logo=visualstudiocode&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Android Studio" src="https://img.shields.io/badge/Android_Studio-IDE-E5E7EB?style=flat-square&logo=androidstudio&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Postman" src="https://img.shields.io/badge/Postman-API_Test-E5E7EB?style=flat-square&logo=postman&logoColor=0F172A&labelColor=CBD5E1"/> <img alt="Spyder" src="https://img.shields.io/badge/Spyder-IDE-E5E7EB?style=flat-square&logo=spyderide&logoColor=0F172A&labelColor=CBD5E1"/>
 
-  <details>
-    <summary>More tools</summary>
-    <p>
-      <img alt="Selenium" src="https://img.shields.io/badge/Selenium-Automation-475569?style=flat-square&logo=selenium&logoColor=ffffff&labelColor=0F172A"/>
-      <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Runtime-475569?style=flat-square&logo=nodedotjs&logoColor=ffffff&labelColor=0F172A"/>
-      <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-475569?style=flat-square&logo=githubactions&logoColor=ffffff&labelColor=0F172A"/>
-      <img alt="HTML5" src="https://img.shields.io/badge/HTML5-Markup-475569?style=flat-square&logo=html5&logoColor=ffffff&labelColor=0F172A"/>
-      <img alt="CSS3" src="https://img.shields.io/badge/CSS3-Styles-475569?style=flat-square&logo=css3&logoColor=ffffff&labelColor=0F172A"/>
-      <img alt="Figma" src="https://img.shields.io/badge/Figma-Design-475569?style=flat-square&logo=figma&logoColor=ffffff&labelColor=0F172A"/>
-    </p>
-  </details>
 </div>
 
 > 데이터 분석가 지망생 최성호(Hoyaaa)의 포트폴리오 겸 프로젝트 관리소.
@@ -77,18 +58,18 @@
 
 ## Certifications
 
-보유/준비 현황을 정리했습니다.
+진행 상황을 간단 체크리스트로 표시합니다.
 
-* ✅ **MOS PowerPoint 2016**
-* 🚧 **ADsP (데이터분석 준전문가)** 준비중
-* 🚧 **SQLD** 준비중
-* 🚧 **빅데이터 분석기사** 준비중
-* 🚧 **정보처리기사** 준비중
-* 🚧 **TOEIC Speaking** 준비중
-* 🚧 **컴퓨터활용능력 1급** 준비중
-* 🚧 **DAoP (데이터 아키텍처 전문가)** 준비중
+* [x] **MOS PowerPoint 2016**
+* [ ] **ADsP (데이터분석 준전문가)**
+* [ ] **SQLD**
+* [ ] **빅데이터 분석기사**
+* [ ] **정보처리기사**
+* [ ] **TOEIC Speaking**
+* [ ] **컴퓨터활용능력 1급**
+* [ ] **DAoP (데이터 아키텍처 전문가)**
 
-> *🚧 = In progress / 준비중*
+> 상세 일정·학습 계획은 추후 `docs/certifications.md`에 정리 예정.
 
 ## Tech Stack
 
