@@ -2,9 +2,69 @@
 
 **A unified lakehouse of my IT & finance projects — from data pipelines to insights.**
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/) [![Kotlin](https://img.shields.io/badge/Kotlin-Android-orange)](https://kotlinlang.org/) [![Java](https://img.shields.io/badge/Java-8%2B-red)](https://www.java.com/) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-orange)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) [![CSS3](https://img.shields.io/badge/CSS3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![Flask](https://img.shields.io/badge/Flask-microframework-lightgrey)](https://flask.palletsprojects.com/) [![Selenium](https://img.shields.io/badge/Selenium-Web%20Automation-brightgreen)](https://www.selenium.dev/) [![Firebase](https://img.shields.io/badge/Firebase-Backend-yellow)](https://firebase.google.com/) [![Android](https://img.shields.io/badge/Android-App-green)](https://developer.android.com/) [![Node.js](https://img.shields.io/badge/Node.js-runtime-brightgreen)](https://nodejs.org/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-black)](https://github.com/features/actions) [![Figma](https://img.shields.io/badge/Figma-Design-purple)](https://www.figma.com/)
+<!-- ===== BADGE ZONE (inspired by Seob'log guide) ===== -->
+
+<div align="center">
+
+  <!-- Core stack: brand colors, for-the-badge -->
+
+  <p>
+    <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a>
+    <a href="https://kotlinlang.org/"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/></a>
+    <a href="https://www.java.com/"><img alt="Java" src="https://img.shields.io/badge/Java-8%2B-007396?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></a>
+  </p>
+
+  <p>
+    <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-microframework-000000?style=for-the-badge&logo=flask&logoColor=white"/></a>
+    <a href="https://www.selenium.dev/"><img alt="Selenium" src="https://img.shields.io/badge/Selenium-Web_Automation-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/></a>
+    <a href="https://firebase.google.com/"><img alt="Firebase" src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=000"/></a>
+    <a href="https://developer.android.com/"><img alt="Android" src="https://img.shields.io/badge/Android-App-3DDC84?style=for-the-badge&logo=android&logoColor=000"/></a>
+    <a href="https://nodejs.org/"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-runtime-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/></a>
+    <a href="https://github.com/features/actions"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/></a>
+    <a href="https://www.figma.com/"><img alt="Figma" src="https://img.shields.io/badge/Figma-Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
+  </p>
+
+  <!-- Certifications (progress) -->
+
+  <p>
+    <img alt="MOS PowerPoint 2016" src="https://img.shields.io/badge/MOS_PowerPoint_2016-Passed-10B981?style=flat-square&logo=microsoftpowerpoint&logoColor=white"/>
+    <img alt="ADsP" src="https://img.shields.io/badge/ADsP-In_Progress-F59E0B?style=flat-square"/>
+    <img alt="SQLD" src="https://img.shields.io/badge/SQLD-In_Progress-F59E0B?style=flat-square"/>
+    <img alt="Big_Data_Analyst" src="https://img.shields.io/badge/빅데이터_분석기사-In_Progress-F59E0B?style=flat-square"/>
+    <img alt="정보처리기사" src="https://img.shields.io/badge/정보처리기사-In_Progress-F59E0B?style=flat-square"/>
+    <img alt="TOEIC_Speaking" src="https://img.shields.io/badge/TOEIC_Speaking-In_Progress-F59E0B?style=flat-square"/>
+    <img alt="컴활_1급" src="https://img.shields.io/badge/컴활_1급-In_Progress-F59E0B?style=flat-square"/>
+    <img alt="DAoP" src="https://img.shields.io/badge/DAoP-In_Progress-F59E0B?style=flat-square"/>
+  </p>
+
+  <!-- Optional: icon strip using devicon (super clean) -->
+
+  <details>
+    <summary>Minimal icon strip</summary>
+    <p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="26"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="26"/>
+    </p>
+  </details>
+</div>
 
 > 데이터 분석가 지망생 최성호(Hoyaaa)의 포트폴리오 겸 프로젝트 관리소.
+> **핵심만 담았습니다.** 상세 설명은 각 프로젝트 폴더의 README에서 확인하세요.
+> 지망생 최성호(Hoyaaa)의 포트폴리오 겸 프로젝트 관리소.
 > **핵심만 담았습니다.** 상세 설명은 각 프로젝트 폴더의 README에서 확인하세요.
 
 ---
@@ -114,10 +174,7 @@ source -> ingestion -> cleanse/transform -> store -> analyze/model -> serve (app
 * **Tech**: Kotlin/Java, XML, Python(Flask+Selenium), JS/HTML/CSS, Node.js, Firebase, Figma
 * **더보기**: `projects/hakbok-sunbae/`
 
----
-
-### 2) 학복관 그 선배 (스마트 캠퍼스 복합 플랫폼)
-
+--- (스마트 캠퍼스 복합 플랫폼)
 **한 줄 소개**: 모바일 주문·조리 완료 알림·혼잡도 예측·식단 자동 수집을 통합한 **캠퍼스 식당 플랫폼**.
 
 * **핵심 기능**
@@ -129,3 +186,63 @@ source -> ingestion -> cleanse/transform -> store -> analyze/model -> serve (app
   * 광고/커뮤니티(공지·게시판) 모듈
 * **System**: Android 사용자 앱 · 관리자 웹 · Flask 크롤링 서버 · Firebase 백엔드(Firestore/Storage/Auth)
 * **Tech**: Kotlin/Java, XML(안드로이드), Node.js, Python(Flask+Selenium), Firebase, JS/HTML/CSS, Figma, GitHub
+* **폴더 제안**: `projects/hakbok-sunbae/`
+
+  * `app-android/`, `admin-web/`, `crawler-flask/`, `docs/`
+* **데이터 구조(예시)**
+
+  * `/users/{uid}/orders/{orderId}`
+  * `/store_order/{storeId}/{yyyyMMdd}/{orderNum}`
+  * `/store_order/congestion/{yyyyMMdd}/completedAt.{hh:mm}`
+  * `/todays_menu/{docId}`
+* **스크린샷/다이어그램**: `docs/architecture.png`, `docs/app_screens/*.png` (추가 예정)
+* **요약 성과**
+
+  * 실시간 데이터 연동(Firestore) 기반 알림/혼잡도 UI 검증
+  * 관리자 웹과 앱 간 이벤트 드리븐 동작 확인
+
+> 첨부 문서 요약 및 기술 명세는 `docs/` 폴더에 정리 예정.
+
+---
+
+## Repository Structure
+
+```bash
+hoya-lakehouse/
+├── data-engineering/
+│   └── crawling-cleaning/
+│       ├── src/
+│       ├── notebooks/
+│       └── data/{raw,processed}/
+├── projects/
+│   └── hakbok-sunbae/
+│       ├── app-android/
+│       ├── admin-web/
+│       ├── crawler-flask/
+│       └── docs/
+├── docs/
+├── README.md
+└── LICENSE
+```
+
+## Getting Started
+
+* 이 저장소는 **포트폴리오 인덱스**입니다. 각 프로젝트 폴더의 `README.md`에서 상세 실행법과 구조를 확인하세요.
+* 공통 규칙
+
+  * 데이터는 `data/raw` → `data/processed` 단계로 관리
+  * 노트북 네이밍: `notebooks/YYMMDD_*`
+  * 재현 환경: `requirements.txt` 또는 `environment.yml` 제공
+
+> 인사 담당자분: 각 프로젝트는 **요약만** 제공되며, 세부 구현·결과·한계는 각 폴더 `README`와 산출물에서 확인하실 수 있습니다.
+
+## Contact
+
+* Owner: **Hoyaaa (최성호)**
+* GitHub: <your-profile-link>
+* Email: <your-email>
+* LinkedIn/Blog: <optional>
+
+## License
+
+* 기본은 MIT 권장 (필요 시 수정). LICENSE 파일 참조.
