@@ -226,8 +226,9 @@ flowchart TD
     LOAD --> ODC[OrderDetailCompleteActivity (주문 완료)]
 
     ODC --> C
+
 ```    
-👥 역할 기반 주문 시퀀스 (사용자 / 매장 / 서버 관점)
+## 👥 역할 기반 주문 시퀀스 (사용자 / 매장 / 서버 관점)
 ```
 sequenceDiagram
     participant User as 사용자
@@ -254,10 +255,9 @@ sequenceDiagram
     Server-->>App: 상태 변경 이벤트(complete = true)
     App-->>User: "조리 완료" 팝업 표시
     App->>Server: popupShown = true 로 업데이트
-    ```
+
 ```
-📁 프로젝트 구조 (개요)
-실제 패키지 구조에 맞게 수정하여 사용하시면 됩니다.
+## 📁 프로젝트 구조 (개요)
 ```
 HacBokGS/
  └── app/
@@ -273,7 +273,7 @@ HacBokGS/
      └── build.gradle
 ```
 
-👤 나의 역할 (기여 내용)
+## 👤 나의 역할 (기여 내용)
 
 4명이서 진행한 졸업 작품 팀 프로젝트이며, 저는 팀장(Leader) 으로 참여했습니다.
 아이디어 제안부터 기획·설계·디자인·개발·오류 수정까지 프로젝트 전반에 걸쳐 기여했습니다.
