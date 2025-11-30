@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">260568281022</string>
+    <string name="google_api_key" translatable="false">AIzaSyBuqYIsvKu478e9VqBk73uqg7v2HnjVbp8</string>
+    <string name="google_app_id" translatable="false">1:260568281022:android:cdd189226bf4a164f813ef</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBuqYIsvKu478e9VqBk73uqg7v2HnjVbp8</string>
+    <string name="google_storage_bucket" translatable="false">nsualarmy.firebasestorage.app</string>
+    <string name="project_id" translatable="false">nsualarmy</string>
+</resources>

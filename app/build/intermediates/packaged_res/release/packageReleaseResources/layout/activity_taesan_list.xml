@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- [1] 나무 배경 -->
+    <ImageView
+        android:id="@+id/taesan_main_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/taesan_main_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- [2] 칠판 이미지 -->
+    <ImageView
+        android:id="@+id/taesan_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/taesan_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- [3] 상단 바 -->
+    <FrameLayout
+        android:id="@+id/top_bar"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ico_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="19dp"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/ico_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="주문하기"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+        app:layout_constraintVertical_bias="0.80">
+
+        <ImageButton
+            android:id="@+id/taesan_Kimchijjim"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="40dp"
+            android:background="@null"
+            android:contentDescription="김치찜"
+            android:scaleType="centerCrop"
+            android:src="@drawable/taesan_kimchijjim" />
+
+        <ImageButton
+            android:id="@+id/taesan_side"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="0dp"
+            android:background="@null"
+            android:contentDescription="사이드"
+            android:scaleType="centerCrop"
+            android:src="@drawable/taesan_side" />
+
+
+    </LinearLayout>
+
+    <!-- 장바구니 버튼 (하단 네비 위 오른쪽 하단 고정) -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cart_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/selector_btn_basket_taesan"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/light_warm_beige"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <!-- 홈 버튼 -->
+        <LinearLayout
+            android:id="@+id/main_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/home"
+                android:scaleType="centerInside"
+                android:src="@drawable/ico_home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/home"
+                android:layout_marginTop="6dp"
+                android:textColor="#FF000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 채팅 버튼 -->
+        <LinearLayout
+            android:id="@+id/main_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/chat"
+                android:scaleType="centerInside"
+                android:src="@drawable/ico_chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/chat"
+                android:layout_marginTop="6dp"
+                android:textColor="#FF000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 리스트 버튼 -->
+        <LinearLayout
+            android:id="@+id/main_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/list"
+                android:scaleType="centerInside"
+                android:src="@drawable/ico_list" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/list"
+                android:layout_marginTop="6dp"
+                android:textColor="#FF000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <!-- 마이페이지 버튼 -->
+        <LinearLayout
+            android:id="@+id/main_mypage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ico_my"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:contentDescription="@string/mypage"
+                android:scaleType="centerInside"
+                android:src="@drawable/ico_my" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mypage"
+                android:layout_marginTop="6dp"
+                android:textColor="#FF000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

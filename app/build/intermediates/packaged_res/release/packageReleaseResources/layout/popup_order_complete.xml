@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- 타이틀 -->
+    <TextView
+        android:id="@+id/popup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="조리 완료!"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- 가게명 -->
+    <TextView
+        android:id="@+id/popup_store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가게명: 행복한버거"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <!-- 메뉴 정보 -->
+    <TextView
+        android:id="@+id/popup_menu_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴: 불고기버거 외 2개"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center" />
+
+    <!-- 주문번호 -->
+    <TextView
+        android:id="@+id/popup_order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주문번호 #123"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:gravity="center" />
+
+    <!-- 확인 버튼 -->
+    <TextView
+        android:id="@+id/popup_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_btn_confirm"
+        android:textSize="16sp"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true" />
+</LinearLayout>

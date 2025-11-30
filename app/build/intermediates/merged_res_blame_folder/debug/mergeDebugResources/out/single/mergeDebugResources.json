@@ -1,0 +1,1118 @@
+[
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_chat_board_home.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_chat_board_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_kkui_click.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_kkui_click.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_taesan_menu_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_taesan_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_burger_menu_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_burger_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_box_underline.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\box_underline.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_ad.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_kkui_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_kkui_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_link.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_link.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_check.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_check.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_back.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_back.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_store_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_store_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_dialog_edit_text.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_selector_btn_map_building.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\selector_btn_map_building.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_congestion_fill_background.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\congestion_fill_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_basket.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_edit.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_chicken_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_chicken_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_store_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_store_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_date_background_selector.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_date_background_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_ssyong_main.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_ssyong_main.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_ssyong_menu_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_ssyong_menu_list.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_chat_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_minus_18.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_minus_18.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_main_basket.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\main_basket.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_popup.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_kkui_main.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_kkui_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_ssyong.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_ssyong.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_logo_kakao.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\logo_kakao.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_school.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_school.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_underline.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\underline.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_eum.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_eum.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_quantity_box.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\quantity_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_taesan_menu_choose_no_size.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_taesan_menu_choose_no_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_cancel.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_logo_color_app.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\logo_color_app.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_previous_48.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_previous_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_pa.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_pa.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_popup_order_complete.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\popup_order_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_table.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_table.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_plus_18.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_plus_18.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_img.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_chicken_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\chicken_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_taesan_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_taesan_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_kkui_food_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_kkui_food_menu_choose.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_mypage.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_mypage.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_bread.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_bread.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_previous_white_48.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_previous_white_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_todaymenu.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_todaymenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_kimchijjim.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_kimchijjim.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_basket.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_basket.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_list_width.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\list_width.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_map.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_map.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_burger_click.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_burger_click.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_building_shadow_click.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\building_shadow_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_food.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_food.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_popup_kkui.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\popup_kkui.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_ssyong_menu_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_ssyong_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_todaymenu_date.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\todaymenu_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_menu_kkui.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_menu_kkui.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_user.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\user.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_main.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_main.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_kkui_drink_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_kkui_drink_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_loading_page.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_loading_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_sto_hamburger.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\sto_hamburger.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_vote_option_background.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\vote_option_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_pin2.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\pin2.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_side_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\side_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_logo_alrmy.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\logo_alrmy.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_menu_choose_no_option.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_menu_choose_no_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_art.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_art.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_mypage.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_mypage.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_selector_btn_basket_burger.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\selector_btn_basket_burger.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket.png"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_order_history.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_order_history.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_ssyong_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_ssyong_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_pay.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_pay.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_chat_detail.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_todaymenu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_todaymenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_closewh.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_closewh.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_ground.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_ground.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_rounded_modal.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\rounded_modal.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_print.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_closebl.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_closebl.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_drink_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_drink_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_call.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_call.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_declaration.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_declaration.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_cu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_cu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_camera.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_camera.png"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_taesan_menu_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_taesan_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_main.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_main.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\animator_building_press.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\animator\\building_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_good.jpg.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_good.jpg"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_clean.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_clean.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_list.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_list.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_chat_detail.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_chat_write.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_chat_write.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_selector_btn_basket_kkui.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\selector_btn_basket_kkui.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_kkui_chicken_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_kkui_chicken_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_food_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_food_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_content_box_menu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\content_box_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_bg_popup.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\bg_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_selector_btn_basket_ssyong.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\selector_btn_basket_ssyong.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_box_border.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\box_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_bg_store_list.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\bg_store_list.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_kkui_menu_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_kkui_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_lode_people_r.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\lode_people_r.png"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_kkui_main.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_kkui_main.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_taesan_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_taesan_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_receipt_menu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_receipt_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_instar.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_instar.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_logo_big_alrmy.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\logo_big_alrmy.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_ssyong_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_ssyong_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_pin3.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\pin3.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\font_griun_nolto_taenggu.ttf.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\font\\griun_nolto_taenggu.ttf"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_order_detail_complete.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_order_detail_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_underbar_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\underbar_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_progress_vote_bar.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\progress_vote_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_dak.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_dak.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_chi.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_chi.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_taesan_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_taesan_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_chickenmayo_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_chickenmayo_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_tomenu.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_tomenu.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_burger_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_burger_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_chat_board_home.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_chat_board_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_lode_people_l.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\lode_people_l.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_date_selector.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_date_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_close_48.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_close_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_chicken_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\chicken_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_taesan_main.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_taesan_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_btn_main.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_btn_main.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_side_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_side_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_burger_menu_single.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_burger_menu_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_border_black.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\border_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_store_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_store_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_taesan_click.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_taesan_click.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_taesan.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_taesan.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_vote_result.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_vote_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_clean.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_clean.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_blue_rounded_background.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\blue_rounded_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\color_selector_date_num_color.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\color\\selector_date_num_color.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_kkui_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_kkui_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_main_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_main_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_chat_write.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_chat_write.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_kkui_chickenmayo_menu_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_kkui_chickenmayo_menu_choose.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_chat_write.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_chat_write.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_burger_main.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_burger_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_food_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_food_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_pin1.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\pin1.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_building_shadow.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\building_shadow.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_burger_menu_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_burger_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_hamburger.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_hamburger.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_menu_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_menu_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_menu_ssyong.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_menu_ssyong.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_map.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_order_menu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_order_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_sto_kkuihankki.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\sto_kkuihankki.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_main.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_upline.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\upline.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_popup.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_popup.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_tittle.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_tittle.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_send.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_send.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_burger_menu_set.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_burger_menu_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_logo_naver.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\logo_naver.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_cu.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_cu.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_chat.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_chat.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_order_detail.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_box_rounded_border.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\box_rounded_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_dark_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_dark_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_bg_card_clickable.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\bg_card_clickable.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_chat_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_burger.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_burger.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_congestion_bar_border.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\congestion_bar_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_burger_side_two_sizes_choose.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_burger_side_two_sizes_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_selector_btn_basket_taesan.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\selector_btn_basket_taesan.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_sto_taesangimchijjim.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\sto_taesangimchijjim.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_store_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_store_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_ssyong_click.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_ssyong_click.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_side_menu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\side_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_profile_circle.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\profile_circle.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_ssyong_main.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_ssyong_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_burger_main.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_burger_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_popup_taesan.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\popup_taesan.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_art.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_art.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_list.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_list.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_burger_order.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_burger_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_taesan_menu_choose_size.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_taesan_menu_choose_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_book.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_book.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_ad.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ic_next_48.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ic_next_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_main_news.jpg.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\main_news.jpg"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_burger_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_burger_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_user.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_user.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_noo.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_noo.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_order_detail_complete.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_order_detail_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_item_ground.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_item_ground.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_placeholder.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_cafe.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_cafe.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_kkui_menu_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_kkui_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_order_detail_menu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_order_detail_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_background.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_background.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_popup_ssyong.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\popup_ssyong.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_basket_menu_each_store.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_basket_menu_each_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_history.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_history.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_basket_kkui.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_basket_kkui.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_option.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_menu_taesan.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_menu_taesan.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_sto_syongsyongdonkacheu.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\sto_syongsyongdonkacheu.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_restaurant_list.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_restaurant_list.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_ad.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_post.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_my.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_my.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_print.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_print.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_jumun.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_jumun.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_basket.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_board.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_board.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_yori.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_yori.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_chat.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_information_security.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\information_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_chat_camera.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_chat_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_logo_toss.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\logo_toss.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_hair.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_hair.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_bg_btn_confirm.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\bg_btn_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_syongsyong_store_image.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\syongsyong_store_image.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_side.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_side.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_chat_chat.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_chat_chat.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_cafe.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_cafe.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_yori_choose.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_yori_choose.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_background_2.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_background_2.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_map_box.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_map_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_dimens.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\dimens.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_good_blue.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_good_blue.png"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_taesan_main.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_taesan_main.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_restaurant_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_restaurant_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_view_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\view_bottom_navigation.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-debug-78:/layout_activity_burger_list.xml.flat",
+        "source": "kr.ac.nsu.hakbokgs.app-main-80:/layout/activity_burger_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_activity_order_history.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\activity_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_taesan_food_back.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\taesan_food_back.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_side.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_side.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_bread.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_bread.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_popup_burger.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\popup_burger.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_star.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_star.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_kkui_background_sub.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\kkui_background_sub.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ssyong_don.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ssyong_don.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_item_menu_burger.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\item_menu_burger.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_hair.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_hair.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_btn_menu.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\btn_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_burger_logo.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\burger_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_photo_post.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\photo_post.png"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\layout_fragment_map_book.xml.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\layout\\fragment_map_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-debug-78:\\drawable_ico_home.png.flat",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-80:\\drawable\\ico_home.png"
+    }
+]

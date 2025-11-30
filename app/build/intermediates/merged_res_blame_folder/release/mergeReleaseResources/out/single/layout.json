@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_burger_side_two_sizes_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_burger_side_two_sizes_choose.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_clean.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_clean.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_art.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_art.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_burger_main.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_burger_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_taesan_main.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_taesan_main.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_book.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_burger_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_burger_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_clean.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_clean.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\user.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\user.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_post.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\main.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\side_menu.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\side_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_order_detail_complete.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_order_detail_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\popup_kkui.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\popup_kkui.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_bread.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_bread.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_option.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_chat_detail.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\dialog_edit_text.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\dialog_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_payment.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_chat.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_basket_menu_each_store.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_basket_menu_each_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\popup_order_complete.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\popup_order_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_art.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_art.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_ad.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_loading_page.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_loading_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_ssyong_menu_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_ssyong_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_print.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_menu_kkui.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_menu_kkui.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_menu_burger.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_menu_burger.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_order.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_order_menu.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_order_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_burger_menu_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_burger_menu_list.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_cu.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_cu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\view_bottom_navigation.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\view_bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_kkui_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_kkui_list.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_hair.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_hair.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_post.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_taesan_menu_choose_size.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_taesan_menu_choose_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_kkui_menu_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_kkui_menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_receipt_menu.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_receipt_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_burger_menu_single.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_burger_menu_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_menu_taesan.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_menu_taesan.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_ssyong_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_ssyong_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_vote_result.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_vote_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_kkui_chicken_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_kkui_chicken_menu_choose.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/activity_map.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_taesan_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_taesan_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_basket.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_cu.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_cu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_order_detail_menu.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_order_detail_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_kkui_drink_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_kkui_drink_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\popup_burger.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\popup_burger.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_cafe.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_cafe.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_pay.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_pay.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/main.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_taesan_menu_choose_no_size.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_taesan_menu_choose_no_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_order_detail.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_burger_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_burger_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_chat_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_chat_list.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_print.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_ad.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_taesan_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_taesan_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\side_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\side_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\popup_taesan.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\popup_taesan.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\information_security.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\information_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\todaymenu_date.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\todaymenu_date.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_cafe.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_cafe.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_popup.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_restaurant_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_restaurant_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_chat_write.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_chat_write.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_kkui_chickenmayo_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_kkui_chickenmayo_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_map_box.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_map_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_order_history.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_chat_board_home.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_chat_board_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_kkui_main.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_kkui_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_burger_menu_set.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_burger_menu_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_popup.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_todaymenu.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_todaymenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_kkui_food_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_kkui_food_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_map_book.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_map_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\fragment_menu_choose_no_option.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\fragment_menu_choose_no_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_taesan_menu_list.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_taesan_menu_list.xml"
+    },
+    {
+        "merged": "kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:/layout/fragment_map_bread.xml",
+        "source": "kr.ac.nsu.hakbokgs.app-main-74:/layout/fragment_map_bread.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\popup_ssyong.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\popup_ssyong.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\item_menu_ssyong.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\item_menu_ssyong.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_mypage.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_mypage.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_ssyong_main.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_ssyong_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\chicken_menu_choose.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\chicken_menu_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_basket.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-mergeReleaseResources-72:\\layout\\activity_map.xml",
+        "source": "C:\\Users\\qwers\\.gradle\\daemon\\8.11.1\\kr.ac.nsu.hakbokgs.app-main-74:\\layout\\activity_map.xml"
+    }
+]
