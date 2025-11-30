@@ -147,7 +147,7 @@
 
 ## 🗂 Firestore 컬렉션 구조 (요약)
 
-```text
+```
 1) users 컬렉션
    - users/{userId}
      - 프로필 필드
@@ -226,7 +226,7 @@ flowchart TD
     LOAD --> ODC[OrderDetailCompleteActivity (주문 완료)]
 
     ODC --> C
-    
+```    
 👥 역할 기반 주문 시퀀스 (사용자 / 매장 / 서버 관점)
 ```
 sequenceDiagram
@@ -254,11 +254,10 @@ sequenceDiagram
     Server-->>App: 상태 변경 이벤트(complete = true)
     App-->>User: "조리 완료" 팝업 표시
     App->>Server: popupShown = true 로 업데이트
-    
+    ```
+```
 📁 프로젝트 구조 (개요)
 실제 패키지 구조에 맞게 수정하여 사용하시면 됩니다.
-
-text
 ```
 HacBokGS/
  └── app/
@@ -272,6 +271,8 @@ HacBokGS/
      │   └── map/            # 지도 화면, RouteLineView
      ├── src/main/res/       # 레이아웃, 이미지, 문자열 리소스
      └── build.gradle
+```
+
 👤 나의 역할 (기여 내용)
 
 4명이서 진행한 졸업 작품 팀 프로젝트이며, 저는 팀장(Leader) 으로 참여했습니다.
