@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- 제목 -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보 수집 및 활용 동의서"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <!-- 수집 및 이용 목적 -->
+    <TextView
+        android:id="@+id/purpose_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가. 수집 및 이용 목적"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/purpose_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NSU_Alarmy에서 필요한 사항(이름, 생년월일, 연락처, 전자우편, 결제정보)에 대하여 어플의 원활한 사용을 위하여 필요한 최소한의 범위 내에서 개인정보를 수집하고 있습니다."
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 수집 및 이용 항목 -->
+    <TextView
+        android:id="@+id/items_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나. 수집 및 이용 항목"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/items_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성명(한글/영어), 생년월일, 연락처, 전자우편, 결제정보"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 개인정보의 보유 및 이용 기간 -->
+    <TextView
+        android:id="@+id/period_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다. 개인정보의 보유 및 이용 기간"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/period_content1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어플 사용자의 개인정보 수집ㆍ이용에 관한 동의일로부터 서비스 사용 종료 시까지 위 이용목적을 위하여 보유 및 이용하게 됩니다. 단, 어플사용 유지, 범죄예방 등을 위하여 1년간 보유하게 됩니다."
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 개인정보의 보유 및 이용 기간 -->
+    <TextView
+        android:id="@+id/agreement_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="라. 동의를 거부할 권리 및 동의를 거부할 경우의 불이익"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/period_content2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위 개인정보 중 필수정보의 수집ㆍ이용에 관한 동의는 어플 사용을 위해 필수적이므로, 위 사항에 동의하셔야만어플 사용이 가능합니다."
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+    <!-- 확인 버튼 -->
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:layout_gravity="center"
+        android:onClick="onConfirmClick"/>
+
+</LinearLayout>

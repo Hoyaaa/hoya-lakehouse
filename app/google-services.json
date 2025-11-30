@@ -1,0 +1,201 @@
+{
+  "project_info": {
+    "project_number": "260568281022",
+    "project_id": "nsualarmy",
+    "storage_bucket": "nsualarmy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260568281022:android:c3a90bc60e466dd7f813ef",
+        "android_client_info": {
+          "package_name": "com.example.nsualarmylogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260568281022-2h2dk67t7r07c0u5soafpkk505fp8ech.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsualarmylogin",
+            "certificate_hash": "65a00d63cd9cb4cbf4be2062f9637a8d6ea9cc4a"
+          }
+        },
+        {
+          "client_id": "260568281022-3iuupjtgbsp75jviba2ldo0ddjsq0amt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsualarmylogin",
+            "certificate_hash": "f1673f2ec83f7e98a82d2471632a6f7dfe84459e"
+          }
+        },
+        {
+          "client_id": "260568281022-4d9i5c2lnb9v0t159cb0o0om6acj6gpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsualarmylogin",
+            "certificate_hash": "0bacff73fc44d806122fca41a099ad31ee677e7b"
+          }
+        },
+        {
+          "client_id": "260568281022-d0826rtqlsbvi7haeg7b38oa2vtbn32v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsualarmylogin",
+            "certificate_hash": "4ced2a7c3c4673e041d443cd1cd32b1284ea9495"
+          }
+        },
+        {
+          "client_id": "260568281022-oer6la6obn6qkpdb4atue67upkhf3hap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsualarmylogin",
+            "certificate_hash": "fc4b4dda173f75b2ea5e714c637c3a20c8dae1b3"
+          }
+        },
+        {
+          "client_id": "260568281022-pnhv2us24a6h1utlrf5m66b3lehi4vmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nsualarmylogin",
+            "certificate_hash": "4b736333a7cb91e2505e937c98212162effb0c28"
+          }
+        },
+        {
+          "client_id": "260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuqYIsvKu478e9VqBk73uqg7v2HnjVbp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260568281022:android:d980af87f53ea009f813ef",
+        "android_client_info": {
+          "package_name": "com.example.restaurant_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260568281022-bdgb927colh14klkoh2jo6eqllm6ko6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.restaurant_management",
+            "certificate_hash": "65a00d63cd9cb4cbf4be2062f9637a8d6ea9cc4a"
+          }
+        },
+        {
+          "client_id": "260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuqYIsvKu478e9VqBk73uqg7v2HnjVbp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260568281022:android:cdd189226bf4a164f813ef",
+        "android_client_info": {
+          "package_name": "kr.ac.nsu.hakbokgs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260568281022-03uihg3lv9nd1r9uvnou3qpdfpuc99ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.nsu.hakbokgs",
+            "certificate_hash": "65a00d63cd9cb4cbf4be2062f9637a8d6ea9cc4a"
+          }
+        },
+        {
+          "client_id": "260568281022-1jc4mssqk2o1hd0dag7hrm1veqqpd40n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.nsu.hakbokgs",
+            "certificate_hash": "4b736333a7cb91e2505e937c98212162effb0c28"
+          }
+        },
+        {
+          "client_id": "260568281022-7mhse7rek30v6g0vd9coqhuo293sb38p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.nsu.hakbokgs",
+            "certificate_hash": "0bacff73fc44d806122fca41a099ad31ee677e7b"
+          }
+        },
+        {
+          "client_id": "260568281022-84r343r9mr4n5mib57hiisjfjj0hfrp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.nsu.hakbokgs",
+            "certificate_hash": "f1673f2ec83f7e98a82d2471632a6f7dfe84459e"
+          }
+        },
+        {
+          "client_id": "260568281022-fju8m8c0djbphbmg8r7bllnr5r4e2moc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.nsu.hakbokgs",
+            "certificate_hash": "fc4b4dda173f75b2ea5e714c637c3a20c8dae1b3"
+          }
+        },
+        {
+          "client_id": "260568281022-v6l8cbpj22pteoc5hr4a80ulegu0njps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.nsu.hakbokgs",
+            "certificate_hash": "4ced2a7c3c4673e041d443cd1cd32b1284ea9495"
+          }
+        },
+        {
+          "client_id": "260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuqYIsvKu478e9VqBk73uqg7v2HnjVbp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260568281022-f8c1q5t7s7k7cb5kq5ou1u12j6bhdplf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

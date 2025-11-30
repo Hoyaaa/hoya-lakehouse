@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 그림자 효과 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B0B0B0" /> <!-- 그림자 색상 -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- 건물 배경 -->
+    <item android:top="5dp" android:left="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- 건물 배경 -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</layer-list>
