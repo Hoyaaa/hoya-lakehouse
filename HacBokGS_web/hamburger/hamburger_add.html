@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="hamburger_add.js"></script>
+    <title>🍔 버거운버거 메뉴 추가</title>
+    <style>
+      body {
+        background-color: #d9d9d9;
+        font-family: Arial, sans-serif;
+        padding: 30px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      label {
+        font-size: 18px;
+        display: block;
+        margin-top: 15px;
+        color: #444;
+      }
+
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+
+      button {
+        margin-top: 30px;
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        background-color: #4e71ff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #4e71ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🍔 버거운버거 메뉴 추가</h1>
+
+      <label for="category-select">카테고리 선택</label>
+      <select id="category-select">
+        <option value="burger">burger</option>
+        <option value="chicken">chicken</option>
+        <option value="side">side</option>
+      </select>
+
+      <label for="menu-id">메뉴 ID</label>
+      <input type="text" id="menu-id" placeholder="예: blackcheese" />
+
+      <label for="description">설명</label>
+      <textarea
+        id="description"
+        rows="3"
+        placeholder="메뉴 설명 입력..."
+      ></textarea>
+
+      <label for="ingredients">재료 (쉼표로 구분)</label>
+      <input
+        type="text"
+        id="ingredients"
+        placeholder="예: 패티, 치즈, 양상추"
+      />
+
+      <label for="price-single">단품 가격</label>
+      <input type="number" id="price-single" placeholder="예: 5300" />
+
+      <label for="price-set">세트 가격</label>
+      <input type="number" id="price-set" placeholder="예: 6800" />
+
+      <label for="sales-status">판매 상태</label>
+      <select id="sales-status">
+        <option value="sell">sell</option>
+        <option value="soldout">soldout</option>
+      </select>
+
+      <label for="image-upload">메뉴 이미지 업로드</label>
+      <input type="file" id="image-upload" />
+
+      <button id="add-button">메뉴 추가</button>
+    </div>
+  </body>
+</html>

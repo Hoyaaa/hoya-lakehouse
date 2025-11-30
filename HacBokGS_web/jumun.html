@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module">
+      import { db } from "./firebase.js";
+      console.log(
+        "✅ advertising.html에서 Firebase가 정상적으로 로드되었습니다."
+      );
+    </script>
+    <title>📝 주문 관리</title>
+    <style>
+      /* body는 고정 (스크롤 안됨) */
+      body {
+        background-color: #f1eee9;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .container {
+        width: 1700px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .table-wrapper {
+        width: calc(100% - 10px);
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      th {
+        background-color: #d9ded1;
+        font-size: 20px;
+      }
+
+      /* 3개의 열 비율 (2:2:6) */
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 20%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 20%;
+        vertical-align: middle;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 60%;
+        vertical-align: middle;
+      }
+
+      td[rowspan] {
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      td[contenteditable="true"] {
+        outline: none;
+        background-color: #f9f9f9;
+      }
+
+      td[contenteditable="true"]:focus {
+        background-color: #ffffcc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 타이틀을 컨테이너 밖으로 이동 -->
+    <div class="title">📝 주문 관리</div>
+
+    <div class="container">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>식당 목록</th>
+              <th>주문 대기</th>
+              <th id="th-3">
+                오늘의 BEST 메뉴 <span id="add-ad-btn-container"></span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Firestore에서 데이터 로드 후 동적 추가 -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- JavaScript 파일 연결 -->
+    <script type="module" src="jumun.js"></script>
+  </body>
+</html>

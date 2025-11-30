@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module">
+      import { db } from "./firebase.js";
+      console.log("✅ user.html에서 Firebase가 정상적으로 로드되었습니다.");
+    </script>
+    <title>사용자 관리</title>
+    <style>
+      /* body는 고정 (스크롤 안됨) */
+      body {
+        background-color: #f1eee9;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .container {
+        width: 1700px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .table-wrapper {
+        width: calc(100% - 10px);
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px; /* 폰트 크기 증가 */
+      }
+
+      th {
+        background-color: #D9DED1;
+        font-size: 20px; /* 헤더 폰트 크기 증가 */
+      }
+
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 20%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 80%;
+      }
+
+      td[contenteditable="true"] {
+        outline: none;
+        background-color: white;
+      }
+
+      td[contenteditable="true"]:focus {
+        background-color: #ffffcc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 타이틀을 컨테이너 밖으로 이동 -->
+    <div class="title">👥 사용자 관리</div>
+
+    <div class="container">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>계정 이름</th>
+              <th>계정 정보</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="cell-1-1" contenteditable="true">계정 이름</td>
+              <td id="cell-1-2" contenteditable="true">계정 정보</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- JavaScript 파일 연결 (맨 아래로 이동) -->
+    <script type="module" src="user.js"></script>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="hamburger_food.js"></script>
+    <title>🍔 버거운버거 식당 관리</title>
+    <style>
+      body {
+        background-color: #d9d9d9;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .title {
+        font-size: 56px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .container {
+        width: 1700px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .table-wrapper {
+        width: calc(100% - 10px);
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        border: 1px solid #aaa !important;
+        box-sizing: border-box;
+      }
+
+      th {
+        background-color: #A6A6A6;
+        font-size: 20px;
+      }
+
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 10%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 10%;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 10%;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 50%;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      td[rowspan] {
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      td[contenteditable="true"] {
+        outline: none;
+        background-color: #f9f9f9;
+      }
+
+      td[contenteditable="true"]:focus {
+        background-color: #ffffcc;
+      }
+
+      .menu-item {
+        cursor: pointer;
+        padding: 4px;
+        transition: background-color 0.2s ease;
+      }
+
+      .menu-item:hover {
+        background-color: #f0f0f0;
+        border-radius: 4px;
+      }
+
+      .food-item {
+        padding: 4px;
+        color: #333;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .food-item:hover {
+        background-color: #f9f9f9;
+        border-radius: 4px;
+      }
+      #details {
+        font-size: 20px; /* 원하는 만큼 조절 가능 */
+        line-height: 1.6;
+      }
+
+      #status-select {
+        font-size: 20px; /* 원하는 사이즈로 조절 가능 */
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 타이틀을 컨테이너 밖으로 이동 -->
+    <div class="title">🍔 버거운버거 식당 관리</div>
+    <div id="save-btn-container" style="margin-bottom: 10px"></div>
+    <!-- 여기에 저장 버튼 나올거예요 -->
+
+    <div class="container">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>식당 목록</th>
+              <th>메뉴 목록</th>
+              <th>음식 목록</th>
+              <th id="th-4">
+                선택된 데이터 <span id="add-ad-btn-container"></span>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <!-- Firestore에서 데이터 로드 후 동적 추가 -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

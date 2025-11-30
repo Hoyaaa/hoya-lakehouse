@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>홍보 게시물 등록</title>
+
+    <!-- advertising_add.js 스크립트 추가 -->
+    <script type="module" src="advertising_add.js"></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f1eee9;
+      }
+      .container {
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 400px;
+      }
+      /* 제목과 입력란 사이 간격 추가 */
+      .container h2 {
+        margin-bottom: 20px;
+      }
+      .container input,
+      .container button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .container button {
+        background: #d9ded1;
+        color: #0d0d0d;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .container button:hover {
+        background: #568ac9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>홍보 게시물 등록</h2>
+
+      <label for="title">홍보 게시물 제목</label>
+      <input type="text" id="title" placeholder="홍보 게시물 제목 입력" />
+
+      <label for="url">홍보 URL</label>
+      <input type="url" id="url" placeholder="홍보 url 입력" />
+
+      <label for="image">홍보 이미지 첨부</label>
+      <input type="file" id="image" accept="image/*" />
+      <!-- 🔍 기존 미리보기 -->
+      <div style="margin-top: 12px">
+        <label style="font-weight: bold">📸 이미지 미리보기 (자유 크기)</label
+        ><br />
+        <img
+          id="preview"
+          src=""
+          alt="홍보 이미지 미리보기"
+          style="
+            width: 100%;
+            max-width: 650px;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 8px;
+          "
+        />
+      </div>
+
+      <!-- ✅ 추가된 광고 배너 이미지 첨부 -->
+      <label for="bannerImage" style="margin-top: 20px"
+        >광고 배너 이미지 첨부</label
+      >
+      <input type="file" id="bannerImage" accept="image/*" />
+
+      <!-- 🖼️ 배너 미리보기 -->
+      <div style="margin-top: 12px">
+        <label style="font-weight: bold"
+          >📢 광고 배너 미리보기 (1300×320 px 권장):</label
+        ><br />
+        <img
+          id="bannerPreview"
+          src=""
+          alt="광고 배너 미리보기"
+          style="
+            width: 100%;
+            max-width: 650px;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 8px;
+          "
+        />
+      </div>
+      <label for="datetime">게시물 종료 시간</label>
+      <input type="datetime-local" id="datetime" />
+
+      <button onclick="registerPost()">등록</button>
+    </div>
+  </body>
+</html>
