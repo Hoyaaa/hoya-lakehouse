@@ -201,9 +201,9 @@
      - currentPeople (현재 이용 인원)
      - level (혼잡도 단계)
      - updatedAt
-🔄 화면 흐름 (Flow Chart)
-mermaid
-코드 복사
+```
+## 🔄 화면 흐름 (Flow Chart)
+```
 flowchart TD
 
     A[앱 실행] --> B[GoogleLogin (구글 로그인)]
@@ -226,9 +226,9 @@ flowchart TD
     LOAD --> ODC[OrderDetailCompleteActivity (주문 완료)]
 
     ODC --> C
+    
 👥 역할 기반 주문 시퀀스 (사용자 / 매장 / 서버 관점)
-mermaid
-코드 복사
+```
 sequenceDiagram
     participant User as 사용자
     participant App as 안드로이드 앱(HacBokGS)
@@ -254,11 +254,12 @@ sequenceDiagram
     Server-->>App: 상태 변경 이벤트(complete = true)
     App-->>User: "조리 완료" 팝업 표시
     App->>Server: popupShown = true 로 업데이트
+    
 📁 프로젝트 구조 (개요)
 실제 패키지 구조에 맞게 수정하여 사용하시면 됩니다.
 
 text
-코드 복사
+```
 HacBokGS/
  └── app/
      ├── src/main/java/kr/ac/nsu/hakbokgs/
