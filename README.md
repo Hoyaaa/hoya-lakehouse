@@ -117,7 +117,7 @@
 
 - **HacBokGS – 캠퍼스 통합 서비스 & 관리자 웹**  
   <sub>Android(Java/Kotlin) · Firebase · Vanilla JS</sub>  
-  👉 [HacBokGS_package](https://github.com/Hoyaaa/HacBokGS_package)  
+  👉 [HacBokGS_package](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/HacBokGS_package)  
   학생용 안드로이드 앱과 운영자용 관리자 웹을 묶은 졸업 작품 캠퍼스 통합 서비스.
   
 - **G2B 입찰공고 자동 수집 & 필터링**  
