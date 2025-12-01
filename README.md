@@ -122,7 +122,7 @@
   
 - **G2B 입찰공고 자동 수집 & 필터링**  
   <sub>Python · Selenium · pandas · openpyxl</sub>  
-  👉 [Webdata_Crawler_package](https://github.com/Hoyaaa/Webdata_Crawler_package)  
+  👉 [Webdata_Crawler_package](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/Webdata_Crawler_package)  
   나라장터(G2B) 입찰공고를 자동 크롤링하고, 엑셀 기반으로 필터링하는 데이터 파이프라인.
 
 
