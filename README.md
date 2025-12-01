@@ -1,66 +1,126 @@
-# hoya-lakehouse
+<!-- 프로필 README - pastel brown tone 🌰 -->
 
-**A unified lakehouse of my IT & finance projects — from data pipelines to insights.**
+<h1 align="center">👋 Hi, I’m <b>Hoyaaa (최성호)</b></h1>
 
-<!-- ===== GROUPED BADGE ZONE v2 (softer palette, larger readable) ===== -->
+<p align="center">
+  <b>데이터 분석가(志)</b><br/>
+  <sub>키워드: 데이터 파이프라인 · 웹/앱 프로토타이핑 · 자동화 · 금융/캠퍼스 도메인</sub>
+</p>
 
-<div align="left">
+<br/>
 
-<sub><b>Languages</b></sub><br> <img alt="Python" src="https://img.shields.io/badge/Python-3.x-F3F4F6?style=for-the-badge&logo=python&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="SQL" src="https://img.shields.io/badge/SQL-Queries-F3F4F6?style=for-the-badge&logo=postgresql&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="Java" src="https://img.shields.io/badge/Java-8%2B-F3F4F6?style=for-the-badge&logo=openjdk&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-F3F4F6?style=for-the-badge&logo=kotlin&logoColor=0F172A&labelColor=E5E7EB"/> 
-<br/><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-F3F4F6?style=for-the-badge&logo=javascript&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-Markup-F3F4F6?style=for-the-badge&logo=html5&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-Styles-F3F4F6?style=for-the-badge&logo=css3&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="JSON" src="https://img.shields.io/badge/JSON-Data-F3F4F6?style=for-the-badge&logo=json&logoColor=0F172A&labelColor=E5E7EB"/>
+<p align="center">
+  <!-- 메인 태그 / 역할 -->
+  <img src="https://img.shields.io/badge/Data%20Pipeline-해보고%20싶은%20일-8D6E63?style=for-the-badge&labelColor=F3E5D8&color=C9A27E" />
+  <img src="https://img.shields.io/badge/Web/App-Prototyping-8D6E63?style=for-the-badge&labelColor=F3E5D8&color=C9A27E" />
+  <img src="https://img.shields.io/badge/Domain-금융%20·%20캠퍼스-C9A27E?style=for-the-badge&labelColor=F3E5D8&color=8D6E63" />
+</p>
 
-<br/><br/> <sub><b>Frameworks</b></sub><br> <img alt="Flask" src="https://img.shields.io/badge/Flask-API-F3F4F6?style=for-the-badge&logo=flask&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="pandas" src="https://img.shields.io/badge/pandas-Analysis-F3F4F6?style=for-the-badge&logo=pandas&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="NumPy" src="https://img.shields.io/badge/NumPy-Numeric-F3F4F6?style=for-the-badge&logo=numpy&logoColor=0F172A&labelColor=E5E7EB"/> 
-<br/><img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-ML-F3F4F6?style=for-the-badge&logo=scikitlearn&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="Selenium" src="https://img.shields.io/badge/Selenium-Automation-F3F4F6?style=for-the-badge&logo=selenium&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Runtime-F3F4F6?style=for-the-badge&logo=nodedotjs&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="Android" src="https://img.shields.io/badge/Android-App-F3F4F6?style=for-the-badge&logo=android&logoColor=0F172A&labelColor=E5E7EB"/>
-
-<br/><br/> <sub><b>Cloud & Tools</b></sub><br> <img alt="Firebase" src="https://img.shields.io/badge/Firebase-Backend-F3F4F6?style=for-the-badge&logo=firebase&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-F3F4F6?style=for-the-badge&logo=githubactions&logoColor=0F172A&labelColor=E5E7EB"/> <img alt="Figma" src="https://img.shields.io/badge/Figma-Design-F3F4F6?style=for-the-badge&logo=figma&logoColor=0F172A&labelColor=E5E7EB"/> 
-<img alt="VS Code" src="https://img.shields.io/badge/VS_Code-Editor-F3F4F6?style=for-the-badge&logo=visualstudiocode&logoColor=0F172A&labelColor=E5E7EB"/> 
-<br/><img alt="Android Studio" src="https://img.shields.io/badge/Android_Studio-IDE-F3F4F6?style=for-the-badge&logo=androidstudio&logoColor=0F172A&labelColor=E5E7EB"/>
-<img alt="OpenAI GPT" src="https://img.shields.io/badge/OpenAI_GPT-Models-F3F4F6?style=for-the-badge&logo=openai&logoColor=0F172A&labelColor=E5E7EB"/>
-<img alt="Google Gemini" src="https://img.shields.io/badge/Gemini-Models-F3F4F6?style=for-the-badge&logo=googlegemini&logoColor=0F172A&labelColor=E5E7EB"/>
- <img alt="Spyder" src="https://img.shields.io/badge/Spyder-IDE-F3F4F6?style=for-the-badge&logo=spyderide&logoColor=0F172A&labelColor=E5E7EB"/>
-
-</div>
-
-> 데이터 분석가 지망생 최성호(Hoyaaa)의 포트폴리오 겸 프로젝트 관리소.
-> **핵심만 담았습니다.** 상세 설명은 각 프로젝트 폴더의 README에서 확인하세요.
-> 지망생 최성호(Hoyaaa)의 포트폴리오 겸 프로젝트 관리소.
-> **핵심만 담았습니다.** 상세 설명은 각 프로젝트 폴더의 README에서 확인하세요.
+<p align="center">
+  <!-- 연락 / 활동 -->
+  <img src="https://img.shields.io/badge/GitHub-Hoyaaa-8D6E63?style=flat-square&logo=github&logoColor=FFFFFF&labelColor=5D4037&color=C9A27E" />
+  <!-- 필요 시 나중에 블로그/메일 추가 -->
+  <!-- <img src="https://img.shields.io/badge/Blog-Coming%20Soon-C9A27E?style=flat-square&labelColor=F3E5D8&color=8D6E63" /> -->
+</p>
 
 ---
 
-## 🧭 Table of Contents
+## 🧑‍💻 Who Am I
 
-* [Intro](#intro)
-* [About This Repository](#about-this-repository)
-* [Who Am I](#who-am-i)
-* [Certifications](#certifications)
-* [Tech Stack](#tech-stack)
-* [Architecture (Lakehouse)](#architecture-lakehouse)
-* [Project Index](#project-index)
+> _“데이터 흐름을 이해하고, 그 위에 돌아가는 제품을 직접 만들어 보는 개발자”_ 가 되고 싶습니다.
 
-  * [1) 데이터 정제 & 웹 크롤링](#1-데이터-정제--웹-크롤링)
-  * [2) 학복관 그 선배 (스마트 캠퍼스 복합 플랫폼)](#2-학복관-그-선배-스마트-캠퍼스-복합-플랫폼)
-* [Repository Structure](#repository-structure)
-* [Getting Started](#getting-started)
-* [Contact](#contact)
-* [License](#license)
+- **최성호 (Hoyaaa)** · **데이터 분석가(志)**  
+- 서비스의 **데이터 흐름 전체를 설계**하고,  
+  필요하면 **앱/웹을 직접 프로토타입으로 구현**해서 검증하는 걸 좋아합니다.
+- 특히 관심 있는 도메인:
+  - 학식/캠퍼스처럼 **사람들이 매일 사용하는 공간**
+  - **금융/거래 데이터**처럼 숫자와 패턴이 중요한 영역
+- 졸업 작품에서는
+  - 학생용 안드로이드 앱 **HacBokGS**
+  - 운영자용 관리자 웹 **HacBokGS_web (단독 개발)**
+  을 통해 **캠퍼스 통합 서비스 + 백오피스**를 한 번에 설계/구현했습니다.
 
 ---
 
-## Intro
+## 💻 Languages
 
-데이터·IT·금융 프로젝트를 **Lakehouse** 개념으로 모아 한눈에 보여줍니다.
-수집 → 정제 → 저장 → 분석 → 서비스의 흐름에 맞춰, 실행 가능한 예제와 결과물을 제공합니다.
+<p>
+  <img src="https://img.shields.io/badge/Python-적극%20사용-C9A27E?style=flat-square&logo=python&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/SQL-Query%20&%20Aggregation-8D6E63?style=flat-square&labelColor=F3E5D8" />
+  <img src="https://img.shields.io/badge/Java-Android-8D6E63?style=flat-square&logo=openjdk&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Kotlin-Android-C9A27E?style=flat-square&logo=kotlin&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/JavaScript-Frontend-F3E5D8?style=flat-square&logo=javascript&logoColor=5D4037&labelColor=D7CCC8" />
+  <img src="https://img.shields.io/badge/HTML-CSS-F3E5D8?style=flat-square&labelColor=D7CCC8&color=8D6E63" />
+</p>
 
-## About This Repository
+---
 
-* 목적: 제가 수행한 프로젝트들을 **데이터 중심**으로 정리하고, 재사용 가능한 형태로 공개
-* 범위: Data Engineering · Data Analytics · Quant/Finance · ML · App/Web
-* 특징: 프로젝트 간 **공통 데이터 레이어**와 **재현 가능한 실행 가이드** 제공
+## 🧱 Frameworks & Libraries
 
-## Who Am I
+### 📊 Data / Analytics
 
-* **최성호 (Hoyaaa)** · 데이터 분석가(志)
-* 키워드: 데이터 파이프라인 · 웹/앱 프로토타이핑 · 자동화 · 금융/캠퍼스 도메인
+<p>
+  <img src="https://img.shields.io/badge/pandas-Data%20Frame-C9A27E?style=flat-square&logo=pandas&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/numpy-Numerical-8D6E63?style=flat-square&logo=numpy&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/matplotlib-Visualization-F3E5D8?style=flat-square&labelColor=D7CCC8&color=8D6E63" />
+  <img src="https://img.shields.io/badge/seaborn-Visualization-C9A27E?style=flat-square&labelColor=F3E5D8" />
+</p>
 
+### 📱 Android
 
+<p>
+  <img src="https://img.shields.io/badge/Android-Native-8D6E63?style=flat-square&logo=android&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Architecture-MVVM-F3E5D8?style=flat-square&labelColor=D7CCC8&color=8D6E63" />
+  <img src="https://img.shields.io/badge/ViewModel-LiveData-C9A27E?style=flat-square&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Glide-Image%20Loading-F3E5D8?style=flat-square&logo=android&logoColor=5D4037&labelColor=D7CCC8" />
+</p>
+
+### 🌐 Web (Lightweight)
+
+<p>
+  <img src="https://img.shields.io/badge/Vanilla%20JS-Admin%20Tools-8D6E63?style=flat-square&logo=javascript&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Static%20HTML/CSS-Prototype-C9A27E?style=flat-square&labelColor=F3E5D8" />
+</p>
+
+---
+
+## ☁️ Cloud & Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore%20%7C%20Storage-C9A27E?style=flat-square&logo=firebase&logoColor=FFCA28&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Git-GitHub-8D6E63?style=flat-square&logo=git&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Android%20Studio-IDE-F3E5D8?style=flat-square&logo=androidstudio&logoColor=3DDC84&labelColor=D7CCC8" />
+  <img src="https://img.shields.io/badge/VS%20Code-Editor-C9A27E?style=flat-square&logo=visualstudiocode&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Notion-Figma-8D6E63?style=flat-square&logo=notion&logoColor=FFFFFF&labelColor=5D4037" />
+</p>
+
+---
+
+## 📌 What I Like To Do
+
+- 데이터를 기준으로 **“지금 서비스에 무슨 일이 일어나고 있는지”** 설명하는 것
+- 필요한 기능이 보이면 **직접 프로토타입(앱/웹/스크립트)** 으로 만들어보는 것
+- 반복되는 업무를 **Python/스크립트로 자동화**하는 것
+- 유저/운영자 입장에서 **실제로 쓸 수 있는 형태**까지 끝까지 가져가는 것
+
+---
+
+## 🔭 관심 있는 방향
+
+- 데이터 파이프라인 & ETL 자동화
+- 금융/캠퍼스 도메인의 로그·거래 데이터 분석
+- 운영자가 직접 쓰는 **백오피스/관리자 도구** 설계 및 개발
+- “데이터 → 인사이트 → 제품 기능” 으로 이어지는 흐름 만들기
+
+---
+
+## 📫 Contact
+
+- **GitHub**: [@Hoyaaa](https://github.com/Hoyaaa)  
+- (추후 블로그/이메일/포트폴리오 링크 추가 예정)
+
+<br/>
+
+<p align="center">
+  <sub>🌰 pastel brown tone · 조금씩 성장 중인 데이터 분석가志 · Hoyaaa</sub>
+</p>
