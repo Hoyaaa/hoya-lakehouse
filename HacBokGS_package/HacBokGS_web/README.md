@@ -157,7 +157,7 @@ Firebase Web SDK (모듈형 / CDN)
 정적 호스팅 (Firebase Hosting 또는 기타 Static Server)
 ```
 
-###📁 폴더 구조
+### 📁 폴더 구조
 ```
 HacBokGS_web/
 ├── master_main.html         # 관리자 대시보드(메인 허브 페이지)
@@ -218,8 +218,8 @@ Firestore/Storage에 대한 read/write 쿼리 작성
 광고 만료 처리, 대기 팀 수 관리 등 운영 로직 구현
 
 오류 수정 & 운영 고려
-```
 
 실제 동작 테스트를 통해 시나리오별 버그 수정
 
 실수로 데이터를 잘못 삭제/수정하는 상황을 최소화하기 위한 UI/동작 개선
+```
