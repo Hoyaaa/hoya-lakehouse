@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.nsu.hakbokgs"> <!-- ✅ 이 줄 추가! -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".main.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HacbokGS">
+
+        <!-- GoogleLogin을 기본 런처로 설정 -->
+        <activity
+            android:name=".login.GoogleLogin"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.HacbokGS">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 추가: UserInformation 액티비티 (회원 정보 입력 화면) -->
+        <activity
+            android:name=".login.UserInformation"
+            android:exported="false"
+            android:label="User Info"
+            android:theme="@style/Theme.HacbokGS">
+
+        </activity>
+
+        <!-- MainActivity: 런처에서 제거 -->
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true"
+            android:label="Main"
+            android:theme="@style/Theme.HacbokGS">
+        </activity>
+
+        <!-- AdActivity ======================================== -->
+        <activity
+            android:name=".main.advertising.AdActivity"
+            android:exported="true"
+            android:label="AdActivity"
+            android:theme="@style/Theme.HacbokGS">
+        </activity>
+
+        <!-- MypageActivity ======================================== -->
+        <activity
+            android:name=".main.mypage.MypageActivity"
+            android:exported="true"
+            android:label="My Page"
+            android:theme="@style/Theme.HacbokGS">
+        </activity>
+
+        <!-- MapActivity ======================================== -->
+        <activity
+            android:name=".main.map.MapActivity"
+            android:exported="true"
+            android:label="Map"
+            android:theme="@style/Theme.HacbokGS">
+        </activity>
+
+
+        <!-- 오늘의 메뉴 ======================================== -->
+        <activity
+            android:name=".main.todaymenu.TodayMenuActivity"
+            android:exported="true"
+            android:label="오늘의 메뉴"
+            android:theme="@style/Theme.HacbokGS" />
+
+
+        <!-- 게시판 ======================================== -->
+        <!-- 게시판 홈 -->
+        <activity
+            android:name=".main.chat.ChatBoardHomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS">
+        </activity>
+
+        <!-- 게시글 목록 -->
+        <activity
+            android:name=".main.chat.ChatListActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 게시글 작성 -->
+        <activity
+            android:name=".main.chat.ChatWriteActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 게시글 상세 보기 -->
+        <activity
+            android:name=".main.chat.ChatDetailActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS"
+            android:windowSoftInputMode="adjustResize" />
+
+
+        <!-- 주문하기 ======================================== -->
+        <!-- 가게 리스트 -->
+        <activity
+            android:name=".main.store.RestaurantListActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS">
+        </activity>
+
+        <!-- 햄버거 메인 화면 (런처 X) -->
+        <activity
+            android:name=".main.store.hamburger.main.BurgerMainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS" />
+        <!-- 햄버거 리스트 화면 -->
+        <activity
+            android:name=".main.store.hamburger.main.BurgerListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 꾸이한끼 메인 화면 -->
+        <activity
+            android:name=".main.store.kkuihankki.main.KkuiMainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS" />
+        <!-- 꾸이한끼 리스트 화면 -->
+        <activity
+            android:name=".main.store.kkuihankki.main.KkuiListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 쑝쑝돈가스 메인 화면 -->
+        <activity
+            android:name=".main.store.syongsyong.main.SsyongMainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS" />
+        <!-- 쑝쑝돈가스 리스트 화면 -->
+        <activity
+            android:name=".main.store.syongsyong.main.SsyongListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 태산김치찜 메인 화면 -->
+        <activity
+            android:name=".main.store.taesan.main.TaesanMainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS" />
+        <!-- 태산김치찜 리스트 화면 -->
+        <activity
+            android:name=".main.store.taesan.main.TaesanListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 메뉴 리스트 화면 -->
+        <activity
+            android:name=".main.store.hamburger.main.MenuListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <activity
+            android:name=".main.store.kkuihankki.main.MenuListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <activity
+            android:name=".main.store.syongsyong.main.MenuListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <activity
+            android:name=".main.store.taesan.main.MenuListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 장바구니 ======================================== -->
+        <activity
+            android:name=".main.store.cart.BasketActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HacbokGS" />
+
+
+        <!-- 결제 ======================================== -->
+        <activity
+            android:name=".main.store.cart.PayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 로딩 ======================================== -->
+        <activity
+            android:name=".main.store.cart.LoadingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+
+        <!-- 주문 내역 ======================================== -->
+        <!-- 전체 주문 내역 -->
+        <activity
+            android:name=".main.store.order.OrderHistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+        <!-- 상세 주문 내역 -->
+        <activity
+            android:name=".main.store.order.OrderDetailCompleteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HacbokGS" />
+
+    </application>
+</manifest>

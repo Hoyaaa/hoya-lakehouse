@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>학복관 알리미 관리자</title>
+
+    <!-- firebase.js 먼저 불러오기 -->
+    <script type="module" src="firebase.js"></script>
+
+    <!-- 그 후 master.js 불러오기 -->
+    <script type="module" src="master.js"></script>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f1eee9;
+        font-family: Arial, sans-serif;
+      }
+
+      /* 타이틀 스타일 */
+      .title {
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .container {
+        width: 1800px;
+        height: 800px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .icon-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .icon-item {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #f1eee9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.2s;
+        position: relative;
+      }
+
+      .icon-item:hover {
+        transform: scale(1.1);
+      }
+
+      .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: white;
+      }
+
+      .icon-text {
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      /* 새로운 컨테이너 스타일 (아이콘 아래) */
+      .content-container {
+        width: 100%; /* 기존 컨테이너 너비에 맞춤 */
+        height: 100%;
+        background-color: #f1eee9;
+        border-radius: 15px;
+        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 10px; /* 아이콘과의 간격 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 타이틀 -->
+    <div class="title">학복관 알리미 관리자</div>
+
+    <!-- 메인 컨테이너 -->
+    <div class="container">
+      <!-- 아이콘 그리드 -->
+      <div class="icon-grid">
+        <div class="icon-item" id="icon-user">
+          <div class="icon">👥</div>
+          <div class="icon-text">사용자 관리</div>
+        </div>
+        <div class="icon-item" id="icon_order">
+          <div class="icon">📝</div>
+          <div class="icon-text">주문 관리</div>
+        </div>
+        <div class="icon-item" id="advertising">
+          <div class="icon">📢</div>
+          <div class="icon-text">광고 관리</div>
+        </div>
+        <div class="icon-item" id="bullentin_board">
+          <div class="icon">📁</div>
+          <div class="icon-text">게시판 관리</div>
+        </div>
+        <div class="icon-item" id="today_menu">
+          <div class="icon">🍽️</div>
+          <div class="icon-text">오늘의 메뉴<br />관리</div>
+        </div>
+        <div class="icon-item" id="congestion">
+          <div class="icon">🚦</div>
+          <div class="icon-text">학복관 혼잡도<br /></div>
+        </div>
+      </div>
+
+      <!-- 아이콘 아래 추가된 컨테이너 -->
+      <div class="content-container">
+        <p>아이콘을 클릭하세요.</p>
+      </div>
+    </div>
+
+    <!-- JavaScript 파일 연결 -->
+    <script type="module" src="user.js"></script>
+    <script type="module" src="advertising.js"></script>
+    <script type="module" src="bullentin_board.js"></script>
+    <script type="module" src="todaymenu.js"></script>
+    <script type="module" src="congestion.js"></script>
+  </body>
+</html>

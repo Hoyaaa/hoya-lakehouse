@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module">
+      import { db } from "./firebase.js";
+      console.log("✅ Firebase 모듈 정상 로드");
+    </script>
+    <script type="module" src="bullentin_board.js"></script>
+    <title>📁 게시판 관리</title>
+    <style>
+      body {
+        background-color: #f1eee9;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .container {
+        width: 1700px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .table-wrapper {
+        width: calc(100% - 10px);
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      th {
+        background-color: #D9DED1;
+        font-size: 20px;
+      }
+
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 10%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 10%;
+        vertical-align: middle;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 30%;
+        vertical-align: middle;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 10%;
+      }
+
+      th:nth-child(5),
+      td:nth-child(5) {
+        width: 20%;
+        text-align: left; /* 왼쪽 정렬 추가 */
+      }
+
+      td[rowspan] {
+        vertical-align: top;
+      }
+
+      td[contenteditable="true"] {
+        outline: none;
+        background-color: #f9f9f9;
+      }
+
+      td[contenteditable="true"]:focus {
+        background-color: #ffffcc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">📢 게시판 관리</div>
+    <div class="container">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>게시판 종류</th>
+              <th>게시판 목록</th>
+              <th id="th-3">선택된 데이터</th>
+              <th>댓글 목록</th>
+              <th>댓글 정보</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <!-- Firestore에서 데이터 로드 후 동적 추가 -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

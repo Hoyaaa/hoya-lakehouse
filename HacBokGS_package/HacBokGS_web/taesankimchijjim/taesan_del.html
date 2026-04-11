@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="taesan_del.js"></script>
+    <title>🗑️ 태산김치찜 메뉴 삭제</title>
+    <style>
+      body {
+        background-color: #d9d9d9;
+        font-family: Arial, sans-serif;
+        padding: 30px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 28px;
+        color: #c62828;
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-size: 18px;
+        display: block;
+        margin-top: 15px;
+        color: #333;
+      }
+
+      select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+
+      button {
+        margin-top: 30px;
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        background-color: #c62828;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #b71c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🗑️ 태산김치찜 메뉴 삭제</h1>
+
+      <label for="category-select">카테고리 선택</label>
+      <select id="category-select">
+        <option value="">-- 카테고리 선택 --</option>
+        <option value="kimchijjim">kimchijjim</option>
+        <option value="side">side</option>
+      </select>
+
+      <label for="menu-select">삭제할 메뉴 선택</label>
+      <select id="menu-select" disabled>
+        <option value="">카테고리를 먼저 선택하세요</option>
+      </select>
+
+      <button id="delete-button">삭제하기</button>
+    </div>
+  </body>
+</html>

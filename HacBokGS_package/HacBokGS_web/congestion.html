@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module">
+      import { db } from "./firebase.js";
+      console.log(
+        "✅ congestion.html에서 Firebase가 정상적으로 로드되었습니다."
+      );
+    </script>
+    <title>🚦 학복관 혼잡도</title>
+    <style>
+      body {
+        background-color: #f1eee9;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .container {
+        width: 1700px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .table-wrapper {
+        width: calc(100% - 10px);
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      th {
+        background-color: #d9ded1;
+        font-size: 20px;
+      }
+
+      /* ✅ 혼잡도 Bar 스타일 */
+      .bar-container {
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        border: 2px solid #003344;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .bar-fill {
+        height: 100%;
+        width: 0%; /* 초기 상태 */
+        background-color: #3399ff;
+        transition: width 0.5s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">🚦 학복관 혼잡도</div>
+
+    <div class="container">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>학복관 혼잡도</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div
+                  id="congestionBar"
+                  style="
+                    height: 25px;
+                    border-radius: 10px;
+                    width: 0%;
+                    background-color: #ccc;
+                  "
+                ></div>
+                <div
+                  id="eating-info"
+                  style="margin-top: 10px; font-size: 18px; font-weight: bold"
+                ></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 🔗 Firestore 혼잡도 로딩 스크립트 -->
+    <script type="module" src="congestion.js"></script>
+  </body>
+</html>

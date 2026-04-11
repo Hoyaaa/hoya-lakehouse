@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🍖 숑숑 실시간 주문 목록</title>
+    <link rel="stylesheet" href="syongsyong_boss.css" />
+    <script type="module" src="../firebase.js"></script>
+    <script type="module" src="syongsyong_boss.js"></script>
+    <!-- ✅ JS 연동 -->
+  </head>
+  <body>
+<div class="header-flex">
+  <p class="order-title">🍖 쑝쑝돈가스 주문 관리</p>
+  <div class="icon-item" id="store">
+    <div class="icon">🏨</div>
+    <div class="icon-text">식당 관리</div>
+  </div>
+</div>
+
+      <!-- ✅ 날짜 선택 전용 -->
+      <div class="date-form">
+        <label for="dateInput">📅 날짜 선택:</label>
+        <input type="date" id="dateInput" />
+        <button id="load-btn">조회</button>
+      </div>
+
+      <!-- ✅ 주문 목록 테이블 -->
+      <table class="order-table">
+        <table class="order-table">
+  <colgroup>
+    <col style="width: 7%;" />   <!-- 주문번호 (1) -->
+    <col style="width: 7%;" />   <!-- 시간 (1) -->
+    <col style="width: 21%;" />  <!-- 음식 (3) -->
+    <col style="width: 42%;" />  <!-- 옵션 (6) -->
+    <col style="width: 7%;" />   <!-- 상태 (1) -->
+    <col style="width: 7%;" />   <!-- 작업 (1) -->
+  </colgroup>
+        <thead>
+          <tr>
+            <th>주문번호</th>
+             <th>시간</th>
+            <th>음식</th>
+            <th>옵션</th>
+            <th>상태</th>
+            <th>작업</th>
+          </tr>
+        </thead>
+        <tbody id="order-list"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
