@@ -1,225 +1,217 @@
-# HacBokGS_web 🍱  
-남서울대학교 학식·매점 통합 서비스 관리자 웹
+# HacBokGS 통합 플랫폼
 
-> **HacBokGS_web** 은 남서울대학교 학식/매점 통합 앱(**HacBokGS**)을  
-> 운영하기 위한 **관리자 전용 웹 대시보드**입니다.  
-> 이 프로젝트는 졸업 작품 중 **관리자 웹 파트**이며, 본인은 이 웹을 **단독 설계·개발**했습니다.
+남서울대학교 학식·매점 실시간 주문 및 운영 관리 시스템
 
 ---
 
-## 📌 프로젝트 개요
+## 1. 개요 (Overview)
 
-- **프로젝트명**: HacBokGS_web (HacBokGS 관리자 웹)
-- **역할**:  
-  - 학식/매점 운영 담당자, 학복관(학생복지관) 관리자, 학교 관계자가 사용하는 **백오피스 도구**
-- **핵심 목표**
-  - 남서울대학교 학생용 앱(HacBokGS)에 노출되는 **메뉴, 주문, 광고, 게시판, 혼잡도**를  
-    별도 설치 없이 **브라우저에서 관리**할 수 있도록 지원
-  - 별도 서버 없이 **Firebase(Firestore + Storage)** 만으로 관리 시스템 구성
+**HacBokGS**는 남서울대학교 학식 및 매점 이용을 위한
+**모바일 앱 + 관리자 웹 + 데이터 자동화 파이프라인**이 결합된 통합 플랫폼입니다.
 
----
+* 사용자는 Android 앱을 통해 주문, 커뮤니티, 메뉴 조회 기능을 이용
+* 관리자는 웹 대시보드를 통해 주문, 광고, 게시판, 혼잡도 등을 실시간 관리
+* Firebase 기반 서버리스 구조로 전체 시스템 구성
 
-## ✨ 주요 기능
-
-### 1. 사용자 관리 (`user.html`)
-
-- Firestore `users` 컬렉션 조회
-- 가입자 목록(이메일, 이름, 학번 등)을 표 형태로 확인
-- 운영자는 전체 사용자 현황을 한눈에 파악 가능
+특히 본 프로젝트는 **실시간 데이터 처리, 운영 자동화, 다중 시스템 연동**을 목표로 설계되었습니다.
 
 ---
 
-### 2. 주문 관리
+## 2. 프로젝트 구성 (System Composition)
 
-#### 2-1. 전체 주문 관리 (`jumun.html`)
+```
+[Android App (HacBokGS)]
+    -> 주문 / 커뮤니티 / 메뉴 / 광고
 
-- 모든 매장의 주문 내역을 한 화면에서 조회
-- 주문별 정보 표시
-  - 주문 ID, 사용자, 매장, 주문 시간, 메뉴 요약, 상태(접수/조리중/완료)
-- 주문 상태 변경
-  - 조리 진행에 따라 상태를 `접수 → 조리중 → 완료` 로 변경
-  - 완료 처리 시, 학생 앱에서 **조리 완료 팝업**과 연동
+[Admin Web (HacBokGS_web)]
+    -> 주문 / 사용자 / 광고 / 게시판 / 혼잡도 관리
 
-#### 2-2. 매장별 주문 관리 (사장님 페이지, 예: `kkuihankki/kkui_boss.html`)
+[Data Pipeline]
+    -> Python (Flask + Selenium 크롤링)
 
-- 특정 매장(예: 꾸이한끼, 태산김치찜 등)의 주문만 필터링해서 표시
-- 매장별 전용 화면에서 주문 상태 관리 (사장님/매니저용)
-- 날짜별, 주문별 리스트로 간단하고 빠르게 처리 가능
+[Backend]
+    -> Firebase (Firestore + Storage + Auth)
+```
 
 ---
 
-### 3. 광고 관리 (`advertising.html`)
+## 3. 기술 스택 (Tech Stack)
 
-- 앱 메인 화면에 노출되는 **배너 광고** 관리
-- 기능
-  - 광고 등록: 제목, 링크(URL), 만료일, 이미지 업로드
-  - 광고 목록 조회: 진행 중/종료된 광고 확인
-  - 수정/삭제
-- 광고 데이터 구조
-  - 진행 중: `advertising/ing/posts/{adId}`
-  - 종료된 광고: `advertising/end/posts/{adId}`
-- 만료일이 지난 광고는 **자동으로 종료 영역으로 이동**하는 로직 포함
+### Android Client
 
----
+* Java, Kotlin
+* MVVM, Repository Pattern
+* RecyclerView, LiveData, DataBinding
+* Firebase SDK
 
-### 4. 게시판 관리 (`bullentin_board.html`)
+### Admin Web
 
-- 학생들이 앱에서 작성한 **Q&A / 건의사항** 게시글 관리
-- 기능
-  - 카테고리별 게시글 목록 조회
-  - 제목/작성자/작성일/조회수/댓글 수 확인
-  - 부적절한 게시글 삭제(모더레이션)
+* HTML5, CSS3, Vanilla JavaScript
+* Firebase Web SDK
+* Background Scheduler (setInterval)
 
----
+### Backend (Serverless)
 
-### 5. 오늘의 메뉴 관리 (`todaymenu.html` 및 매장별 메뉴 페이지)
+* Firebase Authentication
+* Firebase Cloud Firestore
+* Firebase Storage
 
-- 매장별 **당일 판매 메뉴**를 등록/수정/삭제
-- 기능
-  - 매장 선택 후 오늘의 메뉴 목록 조회
-  - 메뉴 추가 (메뉴명, 가격, 카테고리, 설명, 이미지 등)
-  - 메뉴 수정 및 삭제
-- 예:  
-  - `taesankimchijjim/taesan_del.html`  
-    → 태산김치찜 매장의 메뉴 삭제 전용 화면
+### Data Pipeline
+
+* Python, Flask
+* Selenium (크롤링 자동화)
 
 ---
 
-### 6. 혼잡도 모니터링 (`congestion.html`)
+## 4. 핵심 기능 (Core Features)
 
-- 학식관/매장의 **실시간 혼잡도** 확인
-- Firestore `store_order/congestion/{date}/eating` 문서 기반
-- 기능
-  - 현재 이용 인원(`currentPeople`) 표시
-  - 혼잡도 단계 (여유/보통/혼잡/만석 등) 표시
-  - 운영자가 시간대별 혼잡도 흐름을 파악해 인원 배치/운영 전략에 활용
+### 4.1 실시간 주문 및 결제 시스템
+
+* 장바구니 → 결제 → 다중 상점 분산 처리
+* Firestore Batch 기반 원자적 데이터 처리
+* Transaction 기반 주문 번호 채번
+* 주문 상태 실시간 동기화
 
 ---
 
-## 🏗 아키텍처 & 데이터 구조
+### 4.2 관리자 웹 (HacBokGS_web)
 
-### 1. 전반 구조
+#### 사용자 관리
+
+* `users` 컬렉션 기반 전체 사용자 조회 및 관리
+
+#### 주문 관리
+
+* 전체 주문 통합 조회 (`jumun.html`)
+* 매장별 주문 관리 (사장님 전용 페이지)
+* 상태 변경: 접수 → 조리중 → 완료
+* 완료 시 앱과 연동된 실시간 알림
+
+#### 광고 관리
+
+* 광고 등록 / 수정 / 삭제
+* 만료일 기반 자동 상태 전환 (ing → end)
+* Storage 이미지 마이그레이션 처리
+
+#### 게시판 관리
+
+* 카테고리별 게시글 조회 및 삭제
+* 댓글 포함 계층형 데이터 관리
+
+#### 오늘의 메뉴 관리
+
+* 매장별 메뉴 CRUD
+* 앱과 실시간 데이터 연동
+
+#### 혼잡도 모니터링
+
+* 현재 이용 인원 기반 혼잡도 계산
+* 실시간 상태 시각화
+
+---
+
+### 4.3 실시간 상태 감지 및 알림 시스템
+
+* Firestore SnapshotListener 기반 이벤트 감지
+* 조리 완료 시 팝업 알림
+* UI 상태 기반 큐잉(Queue) 처리
+* 앱 재시작 시 상태 복구 로직
+
+---
+
+### 4.4 데이터 자동화 파이프라인
+
+* 관리자 로그인 → 크롤링 트리거
+* Selenium 기반 식단 데이터 수집
+* Firestore 자동 적재
+
+---
+
+### 4.5 실시간 데이터 처리 및 분석
+
+* 혼잡도 계산 알고리즘 (시간 가중치 기반)
+* 매장별 베스트 메뉴 집계
+* 다중 컬렉션 병렬 처리 및 통합
+
+---
+
+## 5. 아키텍처 특징 (Architecture Highlights)
+
+### 서버리스 구조
+
+* 별도 백엔드 없이 Firebase로 전체 시스템 구성
+
+### 실시간 데이터 흐름
+
+* SnapshotListener 기반 UI 자동 갱신
+
+### 데이터 정합성 보장
+
+* Batch + Transaction 조합으로 동시성 문제 해결
+
+### 비동기 이벤트 제어
+
+* Activity Lifecycle 기반 안전한 UI 처리
+* Handler + Queue 기반 재시도 로직
+
+---
+
+## 6. 데이터 흐름 (Data Flow)
 
 ```
-flowchart LR
+사용자 주문
+-> Firestore 저장
+-> 상점별 데이터 분산
 
-    subgraph AdminClient[Client]
-        W[HacBokGS_web<br/>관리자 웹 (HTML+JS)]
-    end
+상점 상태 변경
+-> Firestore 업데이트
+-> 실시간 리스너 감지
+-> 사용자 앱 UI 자동 갱신
 
-    subgraph Firebase[Firebase Backend]
-        F[Cloud Firestore]
-        S[Firebase Storage]
-    end
+관리자 작업
+-> Web에서 직접 DB 조작
+-> 앱과 즉시 동기화
 
-    W <--> F
-    W <--> S
-백엔드 서버 없음
-
-모든 데이터는 Firebase Firestore / Storage를 통해 직접 읽고 쓰기
-
-앱(HacBokGS)과 데이터 공유
-
-모바일 앱에서 사용하는 컬렉션을 그대로 관리자 웹에서 함께 사용
-
-```
-### 2. 핵심 Firestore 컬렉션
-```
-컬렉션 경로	설명
-users/{userId}	사용자 기본 정보
-users/{userId}/orders/{orderId}	사용자별 주문 내역
-bulletin_board/{category}/board/{id}	게시판 글
-advertising/ing/posts/{adId}	진행 중 광고
-advertising/end/posts/{adId}	종료된 광고
-best_menu/{dateDocId}	날짜별 베스트 메뉴 통계
-order_management/{storeId}/count/{d}	매장별 대기 팀 수
-store_order/congestion/{date}/eating	특정 날짜의 혼잡도(현재 인원 등)
+크롤링 서버
+-> 외부 데이터 수집
+-> Firestore 반영
 ```
 
-### 🔧 기술 스택
-```
-Frontend
+---
 
-HTML5, CSS
+## 7. 나의 역할 (Contribution)
 
-순수 JavaScript
+본 프로젝트에서 **관리자 웹(HacBokGS_web)을 단독으로 설계 및 개발**했습니다.
 
-Backend
+### 기획
 
-Firebase Cloud Firestore
+* 운영자(학복관, 매장 관리자) 관점에서 요구사항 정의
+* 앱과 연동되는 관리자 기능 범위 설계
 
-Firebase Storage
+### 설계
 
-기타
+* Firestore 데이터 구조 설계 (앱과 공유)
+* 주문 / 광고 / 게시판 / 혼잡도 데이터 흐름 설계
 
-Firebase Web SDK (모듈형 / CDN)
+### 개발
 
-정적 호스팅 (Firebase Hosting 또는 기타 Static Server)
-```
+* HTML / CSS / JavaScript 기반 관리자 UI 전체 구현
+* Firebase Firestore / Storage 연동 로직 구현
+* 실시간 데이터 처리 및 비동기 로직 구현
 
-### 📁 폴더 구조
-```
-HacBokGS_web/
-├── master_main.html         # 관리자 대시보드(메인 허브 페이지)
-├── user.html                # 사용자 관리 화면
-├── jumun.html               # 전체 주문 관리 화면
-├── advertising.html         # 광고 관리 화면
-├── bullentin_board.html     # 게시판 관리 화면
-├── todaymenu.html           # 오늘의 메뉴 메인 관리 화면
-├── congestion.html          # 혼잡도 모니터링 화면
-├── kkuihankki/
-│   └── kkui_boss.html       # 꾸이한끼 매장 주문 관리(사장님 페이지)
-├── taesankimchijjim/
-│   └── taesan_del.html      # 태산김치찜 메뉴 삭제 전용 페이지
-└── js/
-    ├── master.js            # 공통 기능 및 Firebase 초기화/라우팅
-    ├── user.js              # 사용자 목록 조회 로직
-    ├── advertising.js       # 광고 등록/만료 처리 로직
-    ├── congestion.js        # 혼잡도 조회/표시 로직
-    └── (기타 매장/주문 관련 JS 파일들)
+### 운영 및 안정성 개선
 
-```
+* 데이터 삭제/수정 오류 방지 UX 설계
+* 실시간 동기화 테스트 및 예외 처리 강화
 
-### 👤 개발자 역할 (나의 기여)
-```
-HacBokGS_web 은 이 졸업 작품에서 제가 단독으로 설계 · 디자인 · 개발 · 오류 수정까지 담당한 파트입니다.
+---
 
-기획 & 요구사항 정의
+## 8. 기술적 성과 (Technical Highlights)
 
-학식/매점 운영자, 학복관 관리자 입장에서
-“어떤 데이터를, 어떤 화면에서, 어떻게 관리하면 편한지” 요구사항 정리
+* Firebase 기반 실시간 시스템 설계 및 구현
+* Transaction / Batch 활용한 데이터 정합성 확보
+* 다중 비동기 처리 및 상태 동기화 구조 설계
+* 서버리스 환경에서 운영 자동화 시스템 구축
+* 웹 + 모바일 + 크롤링까지 통합한 풀스택 구조 경험
 
-앱(HacBokGS)과의 연동을 고려해 관리자 웹 기능 범위 정의
-(사용자/주문/광고/게시판/메뉴/혼잡도)
-
-설계
-
-관리자 대시보드(master_main.html)와 각 기능 페이지 구조 설계
-
-Firestore 컬렉션/문서 구조를 앱과 공유하는 방식으로 설계
-
-주문/광고/게시판/혼잡도 등 주요 기능에 대한 데이터 흐름 & UI 플로우 설계
-
-프론트엔드 개발
-
-HTML/CSS/JS로 관리자 UI 직접 구현
-
-user.html, jumun.html, advertising.html, bullentin_board.html,
-todaymenu.html, congestion.html 및 매장별 페이지 구현
-
-운영자가 비개발자라는 전제 하에, 단순하고 직관적인 UI 지향
-
-Firebase 연동
-
-Firestore/Storage에 대한 read/write 쿼리 작성
-
-실시간 리스너(SnapshotListener)를 활용해 주문/게시판/혼잡도 자동 반영
-
-광고 만료 처리, 대기 팀 수 관리 등 운영 로직 구현
-
-오류 수정 & 운영 고려
-
-실제 동작 테스트를 통해 시나리오별 버그 수정
-
-실수로 데이터를 잘못 삭제/수정하는 상황을 최소화하기 위한 UI/동작 개선
-```
+---
