@@ -1,4 +1,4 @@
-# HacBokGS 🍱  
+# HacBokGS 
 남서울대학교 학식/매점 통합 주문 & 캠퍼스 서비스 안드로이드 앱
 
 ## 1. 개요 (Overview)
