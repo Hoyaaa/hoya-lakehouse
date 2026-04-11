@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679700394416",
+    "project_id": "imagescan-bc533",
+    "storage_bucket": "imagescan-bc533.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679700394416:android:4ab5db0bbafd8b36aaa675",
+        "android_client_info": {
+          "package_name": "com.example.imagehouseholdbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679700394416-b7kpkqtl0715cue3m1u6acq4c3fue4cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imagehouseholdbook",
+            "certificate_hash": "65a00d63cd9cb4cbf4be2062f9637a8d6ea9cc4a"
+          }
+        },
+        {
+          "client_id": "679700394416-n0oopkr1uuack5m010n2vuvgfder01hk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imagehouseholdbook",
+            "certificate_hash": "03fb4c024641ffe37be03dec36a902a06c1e842e"
+          }
+        },
+        {
+          "client_id": "679700394416-pbq22e0tcvd0n4cb20ve9jn4gr78e1sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWNTrz45mSYBgvSP_DEjiQ0Nw_Z-iFn64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679700394416-pbq22e0tcvd0n4cb20ve9jn4gr78e1sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

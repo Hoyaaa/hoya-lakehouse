@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상품 정보"
+            android:textColor="#C8E3A9"
+            android:textStyle="bold" />
+
+        <EditText android:id="@+id/edit_purchase_date" style="@style/InputEditTextStyle" android:hint="구매날짜" />
+        <EditText android:id="@+id/edit_product_name" style="@style/InputEditTextStyle" android:hint="상품명" />
+        <EditText android:id="@+id/edit_panel_id" style="@style/InputEditTextStyle" android:hint="패널 ID" />
+        <EditText android:id="@+id/edit_purchase_method" style="@style/InputEditTextStyle" android:hint="구입 방법" />
+        <EditText android:id="@+id/edit_purchase_region" style="@style/InputEditTextStyle" android:hint="구입 지역" />
+        <EditText android:id="@+id/edit_purchase_place" style="@style/InputEditTextStyle" android:hint="구입 장소" />
+        <EditText android:id="@+id/edit_brand" style="@style/InputEditTextStyle" android:hint="브랜드" />
+        <EditText android:id="@+id/edit_origin" style="@style/InputEditTextStyle" android:hint="원산지" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <EditText android:id="@+id/edit_quantity" style="@style/InputEditTextStyle" android:layout_weight="1" android:hint="수량" android:inputType="number" />
+            <EditText android:id="@+id/edit_unit" style="@style/InputEditTextStyle" android:layout_weight="1" android:hint="단위" />
+        </LinearLayout>
+
+        <EditText android:id="@+id/edit_weight" style="@style/InputEditTextStyle" android:hint="중량" />
+        <EditText android:id="@+id/edit_price" style="@style/InputEditTextStyle" android:hint="금액" android:inputType="number" />
+        <EditText android:id="@+id/edit_discount" style="@style/InputEditTextStyle" android:hint="할인액" android:inputType="number" />
+        <EditText android:id="@+id/edit_cultivation_type" style="@style/InputEditTextStyle" android:hint="재배유형" />
+        <EditText android:id="@+id/edit_note" style="@style/InputEditTextStyle" android:hint="특이사항" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

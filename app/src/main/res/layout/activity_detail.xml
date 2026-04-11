@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- 상단 바 -->
+    <TextView
+        android:id="@+id/detail_top_bar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#C8E3A9"
+        android:gravity="center"
+        android:text="영수증 상세"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 샘플 영수증 이미지 -->
+    <ImageView
+        android:id="@+id/iv_receipt"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/receipt_sample"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_top_bar" />
+
+    <!-- 출처 -->
+    <TextView
+        android:id="@+id/tv_view_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naver OCR"
+        android:textColor="#0000FF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_receipt" />
+
+    <!-- 구매 날짜 (상단 크게 표시) -->
+    <TextView
+        android:id="@+id/tvPurchaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="2026-02-05"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_view_origin" />
+
+    <!-- 네비게이션 버튼 -->
+    <ImageView
+        android:id="@+id/btn_prev"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ico_left"
+        app:layout_constraintBottom_toBottomOf="@+id/sv_table_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sv_table_container" />
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ico_right"
+        app:layout_constraintBottom_toBottomOf="@+id/sv_table_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sv_table_container" />
+
+    <!-- 테이블 스크롤 -->
+    <ScrollView
+        android:id="@+id/sv_table_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPurchaseDate">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <!-- 가맹점 명 -->
+            <TableRow android:background="@drawable/table_border">
+                <TextView android:text="가맹점 명" style="@style/DetailLabelStyle" />
+                <TextView android:id="@+id/tvStoreName" style="@style/DetailValueStyle" />
+            </TableRow>
+
+            <!-- 상품명 -->
+            <TableRow android:background="@drawable/table_border">
+                <TextView android:text="상품명" style="@style/DetailLabelStyle" />
+                <TextView android:id="@+id/tvProductName" style="@style/DetailValueStyle" />
+            </TableRow>
+
+            <!-- 단가 -->
+            <TableRow android:background="@drawable/table_border">
+                <TextView android:text="단가" style="@style/DetailLabelStyle" />
+                <TextView android:id="@+id/tvUnitPrice" style="@style/DetailValueStyle" android:textStyle="bold" />
+            </TableRow>
+
+            <!-- 수령 -->
+            <TableRow android:background="@drawable/table_border">
+                <TextView android:text="수령" style="@style/DetailLabelStyle" />
+                <TextView android:id="@+id/tvReceivedQty" style="@style/DetailValueStyle" />
+            </TableRow>
+
+            <!-- 금액 (강조) -->
+            <TableRow android:background="@drawable/table_border">
+                <TextView android:text="금액" style="@style/DetailLabelStyle" />
+                <TextView android:id="@+id/tvTotalAmount" style="@style/DetailValueStyle" android:textStyle="bold" android:textColor="#000000" />
+            </TableRow>
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
