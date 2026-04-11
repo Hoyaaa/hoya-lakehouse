@@ -128,7 +128,7 @@
 - **영수증 스캔 & 구글 시트 저장**  
  <sub>Android(Java/Kotlin) · Firebase · googlesheet</sub>
   👉 [imagehouseholdbook](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/imagehouseholdbook)  
-  카메라로 영수증을 스캔, 영수증의 컬럼들을 가계부 앱 + 구글 시트에 저장
+  카메라로 영수증을 스캔, 구글 GEMINI로 해당 사진 분석, 영수증의 컬럼들을 가계부 앱 + 구글 시트에 저장
 
 
 > 상세 동작/구조는 각 Repo 의 README에서 정리하고 있습니다.
