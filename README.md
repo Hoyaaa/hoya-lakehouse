@@ -127,7 +127,7 @@
 
 - **영수증 스캔 & 구글 시트 저장**  
  <sub>Android(Java/Kotlin) · Firebase · googlesheet</sub>
-  👉 [Webdata_Crawler_package](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/Webdata_Crawler_package)  
+  👉 [imagehouseholdbook](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/imagehouseholdbook)  
   카메라로 영수증을 스캔, 영수증의 컬럼들을 가계부 앱 + 구글 시트에 저장
 
 
