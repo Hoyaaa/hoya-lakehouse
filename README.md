@@ -55,6 +55,12 @@
 
 ## 🧱 Frameworks & Libraries
 
+### 🤖 AI & APIs
+<p>
+  <img src="https://img.shields.io/badge/Google%20Gemini-Generative%20AI-8D6E63?style=flat-square&logo=googlegemini&logoColor=FFFFFF&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Naver%20API-Services-C9A27E?style=flat-square&logo=naver&logoColor=FFFFFF&labelColor=5D4037" />
+</p>
+
 ### 📊 Data / Analytics
 
 <p>
@@ -86,6 +92,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore%20%7C%20Storage-C9A27E?style=flat-square&logo=firebase&logoColor=FFCA28&labelColor=5D4037" />
+  <img src="https://img.shields.io/badge/Google%20Sheets-DB%20%2F%20API-8D6E63?style=flat-square&logo=googlesheets&logoColor=FFFFFF&labelColor=5D4037" />
   <img src="https://img.shields.io/badge/Git-GitHub-8D6E63?style=flat-square&logo=git&logoColor=FFFFFF&labelColor=5D4037" />
   <img src="https://img.shields.io/badge/Android%20Studio-IDE-F3E5D8?style=flat-square&logo=androidstudio&logoColor=3DDC84&labelColor=D7CCC8" />
   <img src="https://img.shields.io/badge/VS%20Code-Editor-C9A27E?style=flat-square&logo=visualstudiocode&logoColor=FFFFFF&labelColor=5D4037" />
