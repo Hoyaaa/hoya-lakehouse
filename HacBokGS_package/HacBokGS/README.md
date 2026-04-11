@@ -1,363 +1,266 @@
 # HacBokGS 🍱  
 남서울대학교 학식/매점 통합 주문 & 캠퍼스 서비스 안드로이드 앱
 
-> Firebase 기반 실시간 주문, 혼잡도 표시, 게시판 기능을 가진 **캠퍼스 통합 서비스 앱**입니다.  
-> 이 저장소는 4인 팀으로 진행한 졸업 작품 중, 제가 **팀장으로 참여한 포트폴리오 프로젝트**입니다.
+## 1. 개요 (Overview)
+
+본 프로젝트는 남서울대학교 학식·매점 환경을 대상으로,
+사용자 경험과 운영 효율을 동시에 개선하기 위해 설계된 **엔드투엔드 통합 서비스 시스템**이다.
+
+시스템은 다음 두 영역으로 구성된다.
+
+* Android 기반 사용자 앱 (HacBokGS)
+* 관리자 웹 대시보드 (HacBokGS_web)
+
+별도의 전통적인 백엔드 서버 없이, Firebase(Firestore, Authentication, Storage)를 중심으로
+실시간 데이터 동기화, 주문 처리, 운영 자동화까지 수행하는 **Serverless 아키텍처**를 구축했다.
+
+또한 Python 기반 크롤링 서버와 관리자 웹을 연동하여
+운영 데이터를 자동으로 수집·갱신하는 **데이터 파이프라인**을 구현했다.
 
 ---
 
-## 📌 프로젝트 소개
+## 2. 기술 스택 (Tech Stack)
 
-**HacBokGS**는 남서울대학교 학생들을 위한 **캠퍼스 통합 서비스**를 목표로 하는 안드로이드 앱입니다.  
-별도의 백엔드 서버 없이 **Firebase(Firestore + Auth)** 를 사용하여 다음 기능을 제공합니다.
+### Android Client
 
-- 학식·매점 메뉴 조회 및 주문
-- 실시간 조리 상태 & 혼잡도(좌석 상황) 표시
-- Google 계정 기반 로그인 & 사용자 프로필 관리
-- Q&A / 건의 게시판
-- 광고/배너 노출 및 링크 이동
-- 지도/길찾기(캠퍼스 내 위치 안내)
+* Language: Kotlin, Java
+* Architecture: MVVM, Repository Pattern, Singleton
+* Core API: Handler, Looper, ValueAnimator, ActivityLifecycleCallbacks, Canvas, PathMeasure
+* BaaS: Firebase (Firestore, Authentication, Storage)
+* Library: Glide, LiveData, ViewBinding
 
-학생이 자주 사용하는 기능들을 하나의 앱에서 처리할 수 있도록 설계했습니다.
+### Admin Web
 
----
+* Frontend: Vanilla JavaScript (ES6+), HTML5, CSS3
+* Architecture: Iframe 기반 SPA, Background Polling (setInterval)
 
-## ✨ 주요 기능
+### Automation & Data Pipeline
 
-### 1. 인증 & 사용자 정보
-
-- **Google Sign-In + Firebase Auth 연동**
-- 최초 로그인 시:
-  - Firestore에 사용자 문서가 없으면 프로필 입력 화면으로 이동
-  - 이름, 학번 등 기본 정보를 입력 후 저장
-- 기존 사용자:
-  - 바로 메인 대시보드로 이동
-
-### 2. 메인 대시보드
-
-- 오늘 날짜 및 간단 안내
-- **광고 배너 슬라이드**
-  - Firestore `advertising/ing/posts` 컬렉션 기반 이미지 배너
-  - Glide로 이미지 로딩, 일정 간격으로 슬라이드 전환
-- **베스트 메뉴 & 대기 팀 수**
-  - `best_menu` 컬렉션에서 날짜별 인기 메뉴 조회
-  - `order_management/{storeId}/count` 컬렉션으로 각 매장 대기 팀 수 표시
-- **실시간 혼잡도**
-  - `store_order/congestion/{date}/eating` 문서 기반으로 좌석 혼잡도 표시
-- 주문, 게시판, 주문내역, 마이페이지, 지도 등 주요 기능으로 이동하는 허브 역할
-
-### 3. 메뉴 & 주문
-
-- 매장 목록(버거, 국밥, 덮밥 등)에서 매장 선택
-- 매장별 메뉴 리스트, 옵션 선택
-- 장바구니에 메뉴 추가
-- 결제 화면에서 전체 주문 내역 및 금액 확인
-- Firestore `users/{userId}/orders/{orderId}` 문서를 생성하며 주문 정보 저장
-
-### 4. 장바구니 & 주문 내역
-
-- **장바구니**
-  - `BasketViewModel` + `BasketDataRepository` + Firestore 구조
-  - `users/{userId}/basket` 서브컬렉션에 장바구니 항목 저장
-  - 수량 변경, 항목 삭제, 총 금액 계산
-- **주문 내역**
-  - `users/{userId}/orders` 서브컬렉션에 주문 이력 관리
-  - 주문별 매장/메뉴/총 금액/상태 표시
-  - 주문 상세 화면에서 메뉴 리스트, 픽업 번호 등 확인
-
-### 5. 조리 상태 실시간 감시 & 팝업
-
-- `MultiStoreCookingWatcher`가 `users/{userId}/orders/{orderId}` 문서 실시간 감시
-- 매장별 `complete` 값이 `false → true`로 변경되면:
-  - 사용자에게 “조리 완료” 팝업 표시
-  - 재노출 방지를 위해 해당 매장의 `popupShown` 필드를 `true`로 업데이트
-- 앱 재실행 시:
-  - `CookingStateRecovery`가 미완료 주문들을 다시 탐색하고 Watcher 재등록
-
-### 6. 게시판 기능
-
-- 카테고리별 게시판(Q&A, 건의사항 등) 제공
-- Firestore `bulletin_board/{category}/board` 컬렉션 사용
-- `addSnapshotListener`로 실시간으로 글 목록 갱신
-- 글 작성 / 상세 보기 / 목록 기능
-
-### 7. 광고 & 지도
-
-- **광고**
-  - `advertising/ing/posts` 하위 문서에서 광고 이미지 및 링크 가져오기
-  - Glide로 이미지 표시, 클릭 시 브라우저/웹뷰로 이동
-- **지도**
-  - 캠퍼스 내 특정 지점까지 길찾기/경로 안내
-  - 커스텀 뷰 `RouteLineView`를 이용해 경로를 선으로 시각화
+* Language: Python
+* Framework: Flask
+* Crawling: Selenium, WebDriver Manager
 
 ---
 
-## 🧱 기술 스택
+## 3. 시스템 핵심 기능 (Key Features)
 
-### Android
+### 3.1 사용자 인증 및 온보딩 (Android)
 
-- **언어**: Java + Kotlin (점진적으로 Kotlin 비중 확대)
-- **아키텍처**
-  - 전체: Activity 중심
-  - 일부 기능: MVVM (ViewModel + LiveData + Repository)
-- **UI**
-  - AndroidX AppCompat
-  - ConstraintLayout, RecyclerView
-  - ViewBinding
-- **이미지 로딩**
-  - Glide
+* Google Sign-In 기반 간편 로그인 및 세션 유지
+* Firestore 사용자 존재 여부에 따른 상태 기반 라우팅
 
-### Firebase
-
-- **Firebase Authentication**
-  - Google 계정 로그인
-- **Cloud Firestore**
-  - 사용자 정보, 장바구니, 주문, 게시판, 광고, 혼잡도 등 모든 데이터 저장
-  - SnapshotListener를 통한 실시간 업데이트
-
-### 기타
-
-- Google Sign-In (Google Play Services)
-- Kotlin `@Parcelize`를 이용한 Parcelable 데이터 모델
+  * 기존 사용자 -> 메인 대시보드
+  * 신규 사용자 -> 온보딩 화면
+* 정규표현식을 활용한 클라이언트 입력값 유효성 검증
 
 ---
 
-## 🏗 아키텍처 개요
+### 3.2 실시간 주문 및 다중 상점 처리 (Android)
 
-### 구조 요약
-
-- 단일 Android 앱 모듈: `HacBokGS/app`
-- **백엔드 서버 없이 Firebase가 곧 서버 역할**
-- Activity 중심 UI에, 상태 관리가 중요한 영역(장바구니/주문/조리 상태)에 MVVM 패턴 적용
-
-### 주요 설계 포인트
-
-- **MVVM**
-  - 장바구니: `BasketViewModel` + `BasketDataRepository`
-  - 주문 내역: `OrderViewModel` + `UserOrderDataRepository`
-- **Repository 패턴**
-  - Firestore 접근 로직을 ViewModel과 분리
-- **Observer 패턴**
-  - Firestore `addSnapshotListener`로 실시간 데이터 감지
-- **Application 레벨 라이프사이클**
-  - `MyApplication`에서 `ActivityLifecycleCallbacks` 등록
-  - 현재 활성 Activity 추적, 조리 상태 팝업 표시 타이밍 제어
+* Firestore SnapshotListener 기반 실시간 주문 상태 동기화
+* 하나의 주문 내 다중 상점 데이터를 통합 관리
+* 모든 상점의 complete 상태를 기반으로 최종 완료 여부 판단
 
 ---
 
-## 🗂 Firestore 컬렉션 구조 (요약)
+### 3.3 조리 상태 감지 및 팝업 큐잉 시스템
 
-```
-1) users 컬렉션
-   - users/{userId}
-     - 프로필 필드
-       - email, name, studentId, phone, photoUrl, createdAt, ...
-     - basket 서브컬렉션
-       - users/{userId}/basket/{basketItemId}
-         - storeId, storeName
-         - menuId, menuName
-         - price, quantity
-         - options
-         - createdAt
-     - orders 서브컬렉션
-       - users/{userId}/orders/{orderId}
-         - createdAt, totalPrice, totalCount, status, pickupNumber
-         - storeOrders (매장별 주문 정보 Map)
-           - {storeId}.storeName
-           - {storeId}.complete
-           - {storeId}.popupShown
-           - {storeId}.menus[] (menuId, menuName, price, quantity, options ...)
+* 다중 상점 조리 상태 실시간 감시
 
-2) bulletin_board 컬렉션
-   - bulletin_board/{category}
-     - board 서브컬렉션
-       - bulletin_board/{category}/board/{postId}
-         - title, content
-         - authorId, authorName
-         - createdAt, updatedAt
-         - commentCount, viewCount
+* complete 상태 변경 시 사용자에게 즉시 팝업 알림 제공
 
-3) advertising 컬렉션
-   - advertising/ing
-     - posts 서브컬렉션
-       - advertising/ing/posts/{adId}
-         - title, imageUrl, url
-         - expireDate, createdAt, priority (선택)
+* UI 생명주기 문제 해결을 위한 Queue 기반 재시도 로직 구현
 
-4) best_menu 컬렉션
-   - best_menu/{dateDocId} (예: "2025-12-01")
-     - 해당 날짜의 베스트 메뉴 집계 정보
-     - 메뉴별 voteCount, storeId, menuName 등의 필드 포함
+  * Activity 미존재 / 백그라운드 상태 -> Pending Queue 저장
+  * Handler 기반 재시도
 
-5) order_management 컬렉션
-   - order_management/{storeId}
-     - count 서브컬렉션
-       - order_management/{storeId}/count/{dateDocId}
-         - waitingTeamCount
-         - updatedAt
+* 중복 방지 로직
 
-6) store_order 컬렉션 (혼잡도 정보)
-   - store_order/congestion/{dateDocId}/eating
-     - currentPeople (현재 이용 인원)
-     - level (혼잡도 단계)
-     - updatedAt
-```
-## 🔄 화면 흐름 (Flow Chart)
-```
-flowchart TD
-
-    A[앱 실행] --> B[GoogleLogin (구글 로그인)]
-
-    B -->|로그인 성공 & 기존 사용자| C[MainActivity (메인 대시보드)]
-    B -->|로그인 성공 & 신규 사용자| D[UserInformation (프로필 입력)]
-    D --> C
-
-    C --> R[RestaurantListActivity (매장 목록)]
-    C --> CB[ChatBoardHomeActivity (게시판)]
-    C --> AD[AdActivity 또는 브라우저 (광고 상세)]
-    C --> OH[OrderHistoryActivity (주문 내역)]
-    C --> MP[MypageActivity (마이페이지)]
-    C --> MAP[MapActivity (지도/길찾기)]
-
-    R --> SM[StoreMainActivity / MenuList (매장별 화면)]
-    SM --> BSK[BasketActivity (장바구니)]
-    BSK --> PAY[PayActivity (결제)]
-    PAY --> LOAD[LoadingActivity (주문 생성)]
-    LOAD --> ODC[OrderDetailCompleteActivity (주문 완료)]
-
-    ODC --> C
-
-```    
-## 👥 역할 기반 주문 시퀀스 (사용자 / 매장 / 서버 관점)
-```
-sequenceDiagram
-    participant User as 사용자
-    participant App as 안드로이드 앱(HacBokGS)
-    participant Server as 서버(Firebase Firestore)
-    participant Store as 매장 시스템(포스/주방 화면)
-
-    User->>App: 메뉴 탐색 및 옵션 선택
-    User->>App: "주문하기" / 결제 진행
-
-    App->>Server: users/{userId}/orders/{orderId} 문서 생성
-    Server-->>App: 주문 생성 성공 응답
-
-    Note over Server,Store: 매장 측 시스템은 Firestore를<br/>실시간 리스닝한다고 가정
-
-    Server-->>Store: 새 주문 데이터 전달
-    Store-->>Store: 새 주문 확인·조리 시작
-
-    Store->>Server: 주문 상태 = "cooking" 등으로 업데이트
-    Server-->>App: 주문 상태 변경 이벤트
-    App-->>User: 주문 내역 화면에 "조리 중" 표시
-
-    Store->>Server: 주문 상태 = "complete", popupShown=false
-    Server-->>App: 상태 변경 이벤트(complete = true)
-    App-->>User: "조리 완료" 팝업 표시
-    App->>Server: popupShown = true 로 업데이트
-
-```
-## 📁 프로젝트 구조 (개요)
-```
-HacBokGS/
- └── app/
-     ├── src/main/java/kr/ac/nsu/hakbokgs/
-     │   ├── main/           # GoogleLogin, MainActivity, MyApplication 등
-     │   ├── menu/           # 매장/메뉴 관련 액티비티 & ViewModel
-     │   ├── basket/         # 장바구니 ViewModel / Repository
-     │   ├── order/          # 주문 내역, 조리 상태 감시 로직
-     │   ├── board/          # 게시판(리스트, 작성, 상세)
-     │   ├── advertising/    # 광고 리스트 & 배너
-     │   └── map/            # 지도 화면, RouteLineView
-     ├── src/main/res/       # 레이아웃, 이미지, 문자열 리소스
-     └── build.gradle
-```
-
-## 👤 나의 역할 
-4명이서 진행한 졸업 작품 팀 프로젝트이며, 저는 **팀장(Leader)** 으로 참여했습니다.  
-아이디어 제안부터 **기획 · 설계 · 디자인 · 개발 · 오류 수정**까지 프로젝트 전반에 걸쳐 기여했습니다.
+  * 로컬 Map + Firestore popupShown 필드 이중 검증
 
 ---
 
-### 🧑‍🤝‍🧑 팀 구성
+### 3.4 결제 및 데이터 정합성 보장
 
-- 4인 팀 졸업 작품 프로젝트
-- 역할: **팀장 / 안드로이드 & Firebase 중심 풀스택 개발**
+* Firestore Batch Write 기반 원자적 주문 처리
 
----
-
-### 💡 아이디어 & 기획
-
-- **캠퍼스 통합 서비스 아이디어 제안**
-  - “학식/매점 주문 + 혼잡도 + 게시판 + 광고 + 지도”를 하나의 앱으로 통합
-- **요구사항 및 시나리오 정의**
-  - 주문 흐름, 조리 완료 알림, 게시판 활용 등 핵심 사용자 시나리오 도출
-- **기능 범위 및 우선순위 결정**
-  - 졸업 작품 발표 기준으로 필수/선택 기능 구분 및 일정에 맞춘 범위 조정
+  * 주문 생성 + 매장 전달 + 장바구니 초기화
+* Transaction 기반 주문 번호 생성 (동시성 제어)
 
 ---
 
-### 🏗 설계
+### 3.5 메인 대시보드 및 UX 고도화
 
-- **화면 흐름(Flow Chart) 설계**
-  - 로그인 → 메인 → 주문/게시판/지도 → 결제/주문완료까지 전체 사용자 동선 정의
-- **Firestore 컬렉션 & 문서 구조 설계**
-  - `users`, `orders`, `basket`, `bulletin_board`, `advertising`, 혼잡도 관련 컬렉션 등 구조 설계
-- **주문/장바구니/조리 상태 감시 설계**
-  - 조리 상태 변화에 따른 팝업 로직 및 데이터 흐름 설계
-- **아키텍처 설계**
-  - Activity 구조 및 MVVM(ViewModel + Repository) 적용 구간 정의
+* 실시간 혼잡도 UI (ValueAnimator 기반 애니메이션)
+* 베스트 메뉴 집계 및 상위 랭킹 출력
+* 광고 배너 슬라이드 (Handler 기반 주기적 변경)
+* 사용자 의사결정을 돕는 데이터 기반 UI 제공
 
 ---
 
-### 🎨 프론트엔드 (Android 앱)
+### 3.6 지도 및 커스텀 UI 렌더링
 
-- **인증 & 메인**
-  - Google 로그인 및 Firebase Auth 연동 구현
-  - 메인 대시보드(광고 배너, 베스트 메뉴, 혼잡도 표시, 주요 네비게이션) 구현
-- **주문 플로우**
-  - 메뉴, 장바구니, 결제, 주문 내역 화면 구현
-- **게시판**
-  - 게시판 목록 / 작성 / 상세 화면 구현
-- **지도 & UI**
-  - `RouteLineView`를 이용한 경로 표시 UI 개발
-  - 레이아웃 구조, 컬러 톤, 공통 컴포넌트 등 전체 화면 디자인 방향에 참여
+* Canvas + PathMeasure 기반 경로 애니메이션
+* atan2 기반 캐릭터 회전 및 방향 제어
+* 경로 시각화를 통한 직관적 UX 구현
 
 ---
 
-### ☁️ 백엔드(Firebase) & 데이터 연동
+### 3.7 관리자 웹 시스템 (Admin Dashboard)
 
-- **데이터 모델링**
-  - Firestore 컬렉션 구조 및 문서 스키마 설계
-- **CRUD 로직 구현**
-  - 장바구니, 주문, 게시판, 광고, 혼잡도 등 주요 기능의 CRUD 로직 구현
-- **Repository & Watcher 구현**
-  - `BasketDataRepository`, `UserOrderDataRepository`, `MultiStoreCookingWatcher` 등 설계 및 구현
-- **실시간 동기화**
-  - Firestore `SnapshotListener` 기반 실시간 데이터 동기화 로직 구현
+#### 사용자 관리
+
+* 전체 사용자 목록 조회 및 관리
+
+#### 주문 관리
+
+* 전체 주문 통합 조회
+* 매장별 주문 필터링 (사장님 페이지)
+* 주문 상태 변경 (접수 → 조리중 → 완료)
+
+#### 광고 관리
+
+* 광고 등록 / 수정 / 삭제
+* 만료 광고 자동 이동 (ing → end)
+
+#### 게시판 관리
+
+* 카테고리별 게시글 조회 및 삭제
+
+#### 메뉴 관리
+
+* 매장별 오늘의 메뉴 CRUD
+
+#### 혼잡도 모니터링
+
+* 실시간 이용 인원 및 혼잡도 단계 시각화
 
 ---
 
-### ✏️ 디자인
+### 3.8 운영 자동화 및 데이터 파이프라인
 
-- 전체 **UI/UX 컨셉 논의 및 반영**
-- 주요 화면 레이아웃, 네비게이션 구조, 배너/리스트/버튼 스타일 결정에 참여
-- 팀원과 협업하여 **사용자 입장에서 자연스러운 플로우**가 되도록 UX 조정
+* 관리자 로그인 시 Python 크롤러 자동 실행
 
----
+* 외부 채널 식단표 자동 수집 및 Firestore 적재
 
-### 🛠 오류 수정 & 품질 관리
+* 백그라운드 스케줄러 (Vanilla JS)
 
-- 빌드 에러, 런타임 크래시, 데이터 동기화 문제 등 디버깅
-- 주문/장바구니/조리 상태 팝업 등 **복잡한 흐름의 버그 수정**
-- 코드 리팩터링, 중복 코드 제거
-- 간단한 코드 리뷰 및 팀원 개발 지원
+  * 광고 만료 감지 및 상태 변경
+  * Firebase Storage 파일 마이그레이션
+  * 매장별 주문 및 베스트 메뉴 집계
 
 ---
 
-### 📅 프로젝트 관리
+### 3.9 혼잡도 분석 알고리즘
 
-- 주간 진행 상황 공유 및 작업 분담
-- 일정 관리 및 마일스톤 설정
-- Git 기반 협업(브랜치 전략 수립, 충돌 해결 등) 주도
-- 중간/최종 발표 자료 준비 및 데모 시나리오 구성
+* 단순 대기열 기반이 아닌 시간 가중치 적용
+* 최근 결제 시간 기준 체류 확률 모델링
+
+  * 10분 단위 가중치 적용
+* 실제 매장 이용 인원 추정
+
+---
+
+## 4. 아키텍처 흐름 (Architecture Flow)
+
+### 사용자 앱 흐름
+
+로그인 -> 사용자 상태 확인 -> 온보딩 또는 메인 진입
+-> 실시간 데이터 수신 (혼잡도 / 광고 / 주문)
+-> 메뉴 선택 및 주문 -> 결제 (Batch)
+-> 조리 상태 실시간 감지 -> 완료 팝업 출력
+
+---
+
+### 관리자 웹 흐름
+
+로그인 -> 크롤링 서버 트리거
+-> 식단 데이터 자동 업데이트
+-> 백그라운드 스케줄러 실행
+-> 광고 만료 처리 및 파일 이동
+-> 주문 데이터 집계 및 혼잡도 계산
+
+---
+
+## 5. 아키텍처 설계 특징
+
+* Serverless 구조 (Firebase 중심)
+* MVVM + Repository 기반 Android 구조
+* Observer 패턴 (SnapshotListener)
+* Application 레벨 Lifecycle 관리
+* 비동기 이벤트 큐잉 시스템
+* 프레임워크 없이 구현한 SPA 관리자 웹
+
+---
+
+## 6. 개발자 역할 (Contribution)
+
+### 프로젝트 역할
+
+* 팀장 (4인 팀 프로젝트)
+* Android + Firebase + 관리자 웹 전반 설계 및 개발 주도
+
+---
+
+### 기획 및 설계
+
+* 캠퍼스 통합 서비스 아이디어 제안
+* 전체 기능 정의 및 우선순위 설정
+* 사용자/운영자 시나리오 설계
+* Firestore 데이터 구조 설계
+
+---
+
+### Android 개발
+
+* 로그인, 메인, 주문, 장바구니, 게시판, 지도 전체 구현
+* MVVM + Repository 적용
+* 실시간 주문 및 팝업 시스템 구현
+* 커스텀 UI 및 애니메이션 구현
+
+---
+
+### 관리자 웹 개발 (단독)
+
+* 전체 관리자 시스템 설계 및 구현
+* 주문 / 광고 / 게시판 / 메뉴 / 혼잡도 관리 기능 개발
+* Firebase 직접 연동 구조 설계
+
+---
+
+### 데이터 및 백엔드(Firebase)
+
+* Firestore 데이터 모델링
+* CRUD 및 실시간 동기화 로직 구현
+* Batch / Transaction 기반 데이터 정합성 설계
+
+---
+
+### 자동화 시스템 구축
+
+* Python Selenium 크롤러 개발
+* 관리자 웹과 연동한 자동 데이터 파이프라인 구축
+
+---
+
+### 품질 관리 및 협업
+
+* 주요 기능 디버깅 및 안정화
+* 코드 리팩터링 및 구조 개선
+* Git 협업 관리 및 일정 조율
+* 발표 자료 및 데모 시나리오 구성
+
+---
+
+## 7. 기술적 성과 (Highlight for Resume)
+
+* 안드로이드 Lifecycle 기반 비동기 이벤트 제어 시스템 설계
+* 다중 상점 주문 구조 및 실시간 상태 동기화 아키텍처 구현
+* Queue 기반 팝업 재시도 로직으로 UI 안정성 확보
+* Firebase만으로 구축한 Serverless 전체 서비스 설계
+* Python 크롤링 + Web 대시보드 연동 자동화 파이프라인 구현
+* 시간 가중치 기반 혼잡도 추론 알고리즘 설계
+* 프레임워크 없이 Vanilla JS로 관리자 SPA 구축
+* Firestore Transaction / Batch를 활용한 데이터 무결성 확보
+
+---
