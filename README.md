@@ -125,6 +125,10 @@
   👉 [Webdata_Crawler_package](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/Webdata_Crawler_package)  
   나라장터(G2B) 입찰공고를 자동 크롤링하고, 엑셀 기반으로 필터링하는 데이터 파이프라인.
 
+- **영수증 스캔 & 구글 시트 저장**  
+ <sub>Android(Java/Kotlin) · Firebase · googlesheet</sub>
+  👉 [Webdata_Crawler_package](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/Webdata_Crawler_package)  
+  카메라로 영수증을 스캔, 영수증의 컬럼들을 가계부 앱 + 구글 시트에 저장
 
 
 > 상세 동작/구조는 각 Repo 의 README에서 정리하고 있습니다.
