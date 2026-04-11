@@ -133,7 +133,7 @@
   나라장터(G2B) 입찰공고를 자동 크롤링하고, 엑셀 기반으로 필터링하는 데이터 파이프라인.
 
 - **영수증 스캔 & 구글 시트 저장**  
- <sub>Android(Java/Kotlin) · Firebase · googlesheet</sub>
+ <sub>Android(Java/Kotlin) · Firebase · googlesheet</sub>  
   👉 [imagehouseholdbook](https://github.com/Hoyaaa/hoya-lakehouse/tree/main/imagehouseholdbook)  
   카메라로 영수증을 스캔, 구글 GEMINI로 해당 사진 분석, 영수증의 컬럼들을 가계부 앱 + 구글 시트에 저장
 
